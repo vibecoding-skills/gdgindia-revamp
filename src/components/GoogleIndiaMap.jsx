@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { APIProvider, Map as GoogleMap, AdvancedMarker, Pin, InfoWindow } from '@vis.gl/react-google-maps';
-import chaptersData from '../data/chapters.json';
 
 // Mapping of known GDG India cities to approximate coordinates [longitude, latitude]
 // Used earlier for SVG Map, repurposing for Google Maps [latitude, longitude]
@@ -60,7 +59,8 @@ const cityCoordinates = {
     "Mangaluru": { lat: 12.9141, lng: 74.8560 }
 };
 
-const GoogleIndiaMap = () => {
+// `chapters` must already have past events removed (see src/lib/events.js).
+const GoogleIndiaMap = ({ chapters }) => {
     const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
     const [selectedCity, setSelectedCity] = useState(null);
     const [filter, setFilter] = useState('all'); // 'all' or 'with-events'
@@ -70,7 +70,7 @@ const GoogleIndiaMap = () => {
     const cityNodes = React.useMemo(() => {
         const map = new Map();
 
-        chaptersData.forEach(chapter => {
+        chapters.forEach(chapter => {
             // Normalize names where data might be using alternatives
             let targetCity = chapter.city;
             if (targetCity === 'Trivandrum') targetCity = 'Thiruvananthapuram';
@@ -95,17 +95,14 @@ const GoogleIndiaMap = () => {
                 existingNode.chapters.push({
                     name: chapter.name,
                     url: chapter.url,
-                    events: chapter.events || []
+                    events: chapter.events
                 });
-
-                if (chapter.events && chapter.events.length > 0) {
-                    existingNode.eventsCount += chapter.events.length;
-                }
+                existingNode.eventsCount += chapter.events.length;
             }
         });
 
         return Array.from(map.values());
-    }, []);
+    }, [chapters]);
 
     return (
         <div className="w-full h-full relative" style={{ minHeight: '400px' }}>

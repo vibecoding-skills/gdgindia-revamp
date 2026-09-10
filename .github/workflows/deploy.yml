@@ -37,7 +37,10 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
 
       - name: Run event scraper
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'

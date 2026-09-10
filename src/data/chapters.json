@@ -18,7 +18,15 @@
     "city": "Gwalior",
     "name": "GDG Gwalior",
     "url": "https://gdg.community.dev/gdg-gwalior/",
-    "events": []
+    "events": [
+      {
+        "title": "Build with AI - Code for Communities 2.0 – Gwalior Edition | Pre-DevFest 2026",
+        "start_date": "2026-09-26T04:30:00Z",
+        "end_date": "2026-09-26T12:00:00Z",
+        "url": "https://gdg.community.dev/e/m4f89f/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -53,20 +61,22 @@
     "city": "Siliguri",
     "name": "GDG Siliguri",
     "url": "https://gdg.community.dev/gdg-siliguri/",
-    "events": [
-      {
-        "title": "Code for Communities: Toy Train Edition",
-        "start_date": "2026-09-05T01:00:00Z",
-        "url": "https://gdg.community.dev/e/m9znrv/"
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
     "city": "Nashik",
     "name": "GDG Nashik",
     "url": "https://gdg.community.dev/gdg-nashik/",
-    "events": []
+    "events": [
+      {
+        "title": "Build With Gemini: From Prompt to Prod - Pre DevFest Nashik 2026",
+        "start_date": "2026-09-22T04:00:00Z",
+        "end_date": "2026-09-22T08:30:00Z",
+        "url": "https://gdg.community.dev/e/m9n3y6/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -80,13 +90,7 @@
     "city": "Ranchi",
     "name": "GDG Ranchi",
     "url": "https://gdg.community.dev/gdg-ranchi/",
-    "events": [
-      {
-        "title": "Code for Communities 2.0:Pre-DevFest",
-        "start_date": "2026-09-05T10:30:00Z",
-        "url": "https://gdg.community.dev/e/mv4bq7/"
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -142,7 +146,15 @@
     "city": "Kolkata",
     "name": "GDG Cloud Kolkata",
     "url": "https://gdg.community.dev/gdg-cloud-kolkata/",
-    "events": []
+    "events": [
+      {
+        "title": "DEVX SUMMIT 2026",
+        "start_date": "2026-09-13T05:30:00Z",
+        "end_date": "2026-09-13T10:30:00Z",
+        "url": "https://gdg.community.dev/e/mcnbm7/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -184,7 +196,15 @@
     "city": "Delhi",
     "name": "GDG Cloud New Delhi",
     "url": "https://gdg.community.dev/gdg-cloud-new-delhi/",
-    "events": []
+    "events": [
+      {
+        "title": "Beyond The Model: Code For Communities",
+        "start_date": "2026-09-20T03:30:43Z",
+        "end_date": "2026-09-20T11:00:43Z",
+        "url": "https://gdg.community.dev/e/mpa54n/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -198,14 +218,30 @@
     "city": "Kolkata",
     "name": "GDG Kolkata",
     "url": "https://gdg.community.dev/gdg-kolkata/",
-    "events": []
+    "events": [
+      {
+        "title": "Build with AI: Code for Communities by GDG Kolkata",
+        "start_date": "2026-09-26T05:30:00Z",
+        "end_date": "2026-09-26T10:30:00Z",
+        "url": "https://gdg.community.dev/e/mmf2wr/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG",
     "city": "Madurai",
     "name": "GDG Madurai",
     "url": "https://gdg.community.dev/gdg-madurai/",
-    "events": []
+    "events": [
+      {
+        "title": "Build with Google Gemini: Launch Workshop",
+        "start_date": "2026-09-12T04:30:17Z",
+        "end_date": "2026-09-12T09:00:17Z",
+        "url": "https://gdg.community.dev/e/mgwd9k/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -219,13 +255,7 @@
     "city": "Indore",
     "name": "GDG Indore",
     "url": "https://gdg.community.dev/gdg-indore/",
-    "events": [
-      {
-        "title": "Build with AI: Code for Communities 2.0 - Indore Edition",
-        "start_date": "2026-09-06T02:30:00Z",
-        "url": "https://gdg.community.dev/e/m8v9cd/"
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -242,28 +272,24 @@
     "events": [
       {
         "title": "Cloud Connect Days 2026 - Goa [ Season 2 ]",
-        "start_date": "2026-08-28T04:00:00Z",
-        "url": "https://gdg.community.dev/e/mv66u7/"
+        "start_date": "2026-09-11T04:00:00Z",
+        "end_date": "2026-09-11T07:30:00Z",
+        "url": "https://gdg.community.dev/e/mn8z4f/",
+        "type": "In person"
       },
       {
-        "title": "Cloud Connect Days 2026 - Goa [ Season 2 ]",
+        "title": "Code for Communities: Technology for Social Impact",
         "start_date": "2026-09-11T04:00:00Z",
-        "url": "https://gdg.community.dev/e/mn8z4f/"
+        "end_date": "2026-09-11T12:00:00Z",
+        "url": "https://gdg.community.dev/e/mngxbf/",
+        "type": "In person"
       },
       {
         "title": "Cloud Connect Days 2026 - Goa [ Season 2 ]",
         "start_date": "2026-09-18T04:00:00Z",
-        "url": "https://gdg.community.dev/e/mby2v4/"
-      },
-      {
-        "title": "Cloud Connect Days 2026 - Goa [ Season 2 ]",
-        "start_date": "2026-09-04T04:00:00Z",
-        "url": "https://gdg.community.dev/e/mcube6/"
-      },
-      {
-        "title": "Exclusive Industry Insights: Payments & Products",
-        "start_date": "2026-08-31T06:30:00Z",
-        "url": "https://gdg.community.dev/e/m9a5ag/"
+        "end_date": "2026-09-18T07:30:00Z",
+        "url": "https://gdg.community.dev/e/mby2v4/",
+        "type": "In person"
       }
     ]
   },
@@ -272,13 +298,7 @@
     "city": "Gandhinagar",
     "name": "GDG Gandhinagar",
     "url": "https://gdg.community.dev/gdg-gandhinagar/",
-    "events": [
-      {
-        "title": "DevFest Gandhinagar 2026",
-        "start_date": "2026-08-04T13:18:15Z",
-        "url": "https://gdg.community.dev/e/mnr36y/"
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -287,9 +307,11 @@
     "url": "https://gdg.community.dev/gdg-pune/",
     "events": [
       {
-        "title": "Build with AI - Pre DevFest Pune'26 Workshop Series 3.0 | Josh Software",
-        "start_date": "2026-09-05T03:30:00Z",
-        "url": "https://gdg.community.dev/e/m9dghy/"
+        "title": "Build with AI - Code for Communities - Pre DevFest Pune'26 Workshop Series 4.0 | Thoughtworks",
+        "start_date": "2026-09-12T03:30:00Z",
+        "end_date": "2026-09-12T08:30:00Z",
+        "url": "https://gdg.community.dev/e/mr6d36/",
+        "type": "In person"
       }
     ]
   },
@@ -305,7 +327,29 @@
     "city": "Chennai",
     "name": "GDG Chennai",
     "url": "https://gdg.community.dev/gdg-chennai/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Roadshow #1 - Life with Agents",
+        "start_date": "2026-09-12T04:30:00Z",
+        "end_date": "2026-09-12T11:00:00Z",
+        "url": "https://gdg.community.dev/e/mmxm7p/",
+        "type": "In person"
+      },
+      {
+        "title": "DevFest Roadshow #2 - From Mind to Universe: How Neuro-Science Shapes AI and AI Unlocks Cosmic Discoveries",
+        "start_date": "2026-09-13T04:30:00Z",
+        "end_date": "2026-09-13T11:30:00Z",
+        "url": "https://gdg.community.dev/e/m247qw/",
+        "type": "In person"
+      },
+      {
+        "title": "DevFest 2026 Chennai",
+        "start_date": "2026-10-17T03:00:00Z",
+        "end_date": "2027-10-17T13:00:00Z",
+        "url": "https://gdg.community.dev/e/mggnpb/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -342,14 +386,25 @@
     "url": "https://gdg.community.dev/gdg-jalandhar/",
     "events": [
       {
-        "title": "Build with AI: Workshop",
-        "start_date": "2026-10-10T03:30:00Z",
-        "url": "https://gdg.community.dev/e/mzujtq/"
-      },
-      {
         "title": "Code for Communities: Women in Tech Punjab",
         "start_date": "2026-09-19T04:00:00Z",
-        "url": "https://gdg.community.dev/e/mwgf4v/"
+        "end_date": "2026-09-19T11:00:00Z",
+        "url": "https://gdg.community.dev/e/mwgf4v/",
+        "type": "In person"
+      },
+      {
+        "title": "Build with AI: Workshop",
+        "start_date": "2026-10-10T03:30:00Z",
+        "end_date": "2026-10-10T10:30:00Z",
+        "url": "https://gdg.community.dev/e/mzujtq/",
+        "type": "In person"
+      },
+      {
+        "title": "DevFest Jalandhar 2026",
+        "start_date": "2026-10-31T03:00:00Z",
+        "end_date": "2026-10-31T12:30:00Z",
+        "url": "https://gdg.community.dev/e/mpnkud/",
+        "type": "In person"
       }
     ]
   },
@@ -358,7 +413,15 @@
     "city": "Ahmedabad",
     "name": "GDG Ahmedabad",
     "url": "https://gdg.community.dev/gdg-ahmedabad/",
-    "events": []
+    "events": [
+      {
+        "title": "Code for Communities 2.0 | Build with AI",
+        "start_date": "2026-09-12T03:00:00Z",
+        "end_date": "2026-09-12T08:30:00Z",
+        "url": "https://gdg.community.dev/e/mw98xz/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -393,7 +456,15 @@
     "city": "Vadodara",
     "name": "GDG Baroda",
     "url": "https://gdg.community.dev/gdg-baroda/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Baroda 2026",
+        "start_date": "2026-10-25T03:30:00Z",
+        "end_date": "2026-10-25T12:30:00Z",
+        "url": "https://gdg.community.dev/e/m2w8sd/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -402,9 +473,11 @@
     "url": "https://gdg.community.dev/gdg-jammu/",
     "events": [
       {
-        "title": "Build with AI: ABC (Any Body Can Code)",
-        "start_date": "2026-09-06T05:00:00Z",
-        "url": "https://gdg.community.dev/e/m4xnpf/"
+        "title": "AI-Assisted Coding: A Beginner's Guide",
+        "start_date": "2026-09-19T05:30:00Z",
+        "end_date": "2026-09-19T08:00:00Z",
+        "url": "https://gdg.community.dev/e/mjva3p/",
+        "type": "In person"
       }
     ]
   },
@@ -427,7 +500,15 @@
     "city": "Raipur",
     "name": "GDG Raipur",
     "url": "https://gdg.community.dev/gdg-raipur/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Raipur 2026",
+        "start_date": "2026-11-01T03:30:00Z",
+        "end_date": "2026-11-01T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mmp5ka/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -438,7 +519,9 @@
       {
         "title": "Design Samvaad: Edition 4.0",
         "start_date": "2026-09-12T03:30:00Z",
-        "url": "https://gdg.community.dev/e/m5yg7n/"
+        "end_date": "2026-09-12T11:00:00Z",
+        "url": "https://gdg.community.dev/e/m5yg7n/",
+        "type": "In person"
       }
     ]
   },
@@ -465,7 +548,9 @@
       {
         "title": "Code for Communities 2.0",
         "start_date": "2026-09-13T04:00:00Z",
-        "url": "https://gdg.community.dev/e/m9xgr2/"
+        "end_date": "2026-09-13T11:30:00Z",
+        "url": "https://gdg.community.dev/e/m9xgr2/",
+        "type": "In person"
       }
     ]
   },
@@ -488,7 +573,15 @@
     "city": "Kochi",
     "name": "GDG Cloud Kochi",
     "url": "https://gdg.community.dev/gdg-cloud-kochi/",
-    "events": []
+    "events": [
+      {
+        "title": "[Code for Communities] Attention is All You Web",
+        "start_date": "2026-09-12T04:30:00Z",
+        "end_date": "2026-09-12T11:00:00Z",
+        "url": "https://gdg.community.dev/e/mrh4pz/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -512,8 +605,10 @@
     "events": [
       {
         "title": "Code for Communities 2.0 | Build with AI",
-        "start_date": "2026-09-19T04:30:00Z",
-        "url": "https://gdg.community.dev/e/mr4zrd/"
+        "start_date": "2026-09-19T03:30:00Z",
+        "end_date": "2026-09-19T12:00:00Z",
+        "url": "https://gdg.community.dev/e/mr4zrd/",
+        "type": "In person"
       }
     ]
   },
@@ -522,7 +617,22 @@
     "city": "Madurai",
     "name": "GDG Cloud Madurai",
     "url": "https://gdg.community.dev/gdg-cloud-madurai/",
-    "events": []
+    "events": [
+      {
+        "title": "code for communities",
+        "start_date": "2026-09-19T04:30:00Z",
+        "end_date": "2026-09-19T10:00:00Z",
+        "url": "https://gdg.community.dev/e/mj2b5r/",
+        "type": "In person"
+      },
+      {
+        "title": "Unlocking Google Gemini: Building Enterprise-Ready Agents",
+        "start_date": "2026-10-03T04:30:03Z",
+        "end_date": "2026-10-03T11:30:03Z",
+        "url": "https://gdg.community.dev/e/mrj5wu/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -543,7 +653,15 @@
     "city": "Belagavi",
     "name": "GDG Belgaum",
     "url": "https://gdg.community.dev/gdg-belgaum/",
-    "events": []
+    "events": [
+      {
+        "title": "Hands-on Workshop: Transform Data into Powerful Insights",
+        "start_date": "2026-09-11T12:30:00Z",
+        "end_date": "2026-09-11T14:30:00Z",
+        "url": "https://gdg.community.dev/e/mp542j/",
+        "type": "In person"
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -589,7 +707,9 @@
       {
         "title": "Thinkfluence",
         "start_date": "2026-09-12T03:30:00Z",
-        "url": "https://gdg.community.dev/e/mbfn56/"
+        "end_date": "2026-09-12T08:30:00Z",
+        "url": "https://gdg.community.dev/e/mbfn56/",
+        "type": "In person"
       }
     ]
   },
@@ -621,14 +741,11 @@
     "url": "https://gdg.community.dev/gdg-cloud-udaipur/",
     "events": [
       {
-        "title": "Build with AI: ABC (Anybody Can Code) - Udaipur Edition",
-        "start_date": "2026-09-06T04:00:00Z",
-        "url": "https://gdg.community.dev/e/m85a3g/"
-      },
-      {
-        "title": "Code for Communities 2.0 Kickoff: AI & Innovation",
+        "title": "Build with AI : Code for Communities 2.0 - Udaipur Edition",
         "start_date": "2026-09-27T03:30:00Z",
-        "url": "https://gdg.community.dev/e/mgzgew/"
+        "end_date": "2026-09-27T10:30:00Z",
+        "url": "https://gdg.community.dev/e/mgzgew/",
+        "type": "In person"
       }
     ]
   },

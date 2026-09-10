@@ -1,30 +1,32 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import './index.css';
 import chaptersData from './data/chapters.json';
 import photosData from './data/photos.json';
 import GoogleIndiaMap from './components/GoogleIndiaMap';
+import { withUpcomingEvents, pickRandom } from './lib/events';
+
 function App() {
   const [activeTab, setActiveTab] = useState('hub');
   const [searchTerm, setSearchTerm] = useState('');
   const [filterType, setFilterType] = useState('All');
   const [showOnlyWithEvents, setShowOnlyWithEvents] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [currentHubPage, setCurrentHubPage] = useState(1);
-  const [isDarkMode, setIsDarkMode] = useState(false);
   const [eventSearchTerm, setEventSearchTerm] = useState('');
   const [selectedPhotoIndex, setSelectedPhotoIndex] = useState(null);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [visiblePhotosCount, setVisiblePhotosCount] = useState(12);
-  const [previewImages, setPreviewImages] = useState([]);
+  const [previewImages] = useState(() => pickRandom(photosData, 2));
 
-  useEffect(() => {
-    if (photosData.length >= 2) {
-      const shuffled = [...photosData].sort(() => 0.5 - Math.random());
-      setPreviewImages(shuffled.slice(0, 2));
-    } else {
-      setPreviewImages(photosData);
-    }
-  }, []);
+  // Events are filtered once per page load so finished events never show as upcoming.
+  const chapters = useMemo(() => withUpcomingEvents(chaptersData), []);
+  const totalUpcomingEvents = chapters.reduce((acc, chapter) => acc + chapter.events.length, 0);
+
+  // Any change to a tab, search or filter starts again from page 1.
+  const selectTab = (tab) => { setActiveTab(tab); setCurrentPage(1); };
+  const changeSearchTerm = (value) => { setSearchTerm(value); setCurrentPage(1); };
+  const changeFilterType = (value) => { setFilterType(value); setCurrentPage(1); };
+  const changeShowOnlyWithEvents = (value) => { setShowOnlyWithEvents(value); setCurrentPage(1); };
+  const changeEventSearchTerm = (value) => { setEventSearchTerm(value); setCurrentPage(1); };
 
   useEffect(() => {
     const handleScroll = () => setShowScrollTop(window.scrollY > 300);
@@ -43,35 +45,17 @@ function App() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [selectedPhotoIndex]);
 
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [searchTerm, filterType, showOnlyWithEvents, activeTab, eventSearchTerm]);
-
-  const filteredChapters = chaptersData.filter(chapter => {
+  const filteredChapters = chapters.filter(chapter => {
     const matchesSearch = chapter.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       chapter.city.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesFilter = filterType === 'All' || chapter.type === filterType;
-    const matchesEvents = !showOnlyWithEvents || (chapter.events && chapter.events.length > 0);
+    const matchesEvents = !showOnlyWithEvents || chapter.events.length > 0;
     return matchesSearch && matchesFilter && matchesEvents;
   }).sort((a, b) => a.name.localeCompare(b.name));
 
   const ITEMS_PER_PAGE = 24;
   const totalPages = Math.ceil(filteredChapters.length / ITEMS_PER_PAGE);
   const displayedChapters = filteredChapters.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE);
-
-  const upcomingEvents = chaptersData
-    .flatMap(chapter => (chapter.events || []).map(event => ({ ...event, chapterName: chapter.name, city: chapter.city })))
-    .filter(event => {
-      const eventDate = new Date(event.start_date);
-      const today = new Date();
-      const nextWeek = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
-      return eventDate >= today && eventDate <= nextWeek;
-    })
-    .sort((a, b) => new Date(a.start_date) - new Date(b.start_date));
-
-  const HUB_EVENTS_PER_PAGE = 4;
-  const totalHubPages = Math.ceil(upcomingEvents.length / HUB_EVENTS_PER_PAGE);
-  const displayedHubEvents = upcomingEvents.slice((currentHubPage - 1) * HUB_EVENTS_PER_PAGE, currentHubPage * HUB_EVENTS_PER_PAGE);
 
   const renderChapters = () => (
     <div className="flex-1 w-full bg-white/80 backdrop-blur-md rounded-3xl p-4 md:p-8 border border-white/40 shadow-sm flex flex-col mt-4">
@@ -84,26 +68,26 @@ function App() {
             type="text"
             placeholder="Search by city or chapter name..."
             value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
+            onChange={(e) => changeSearchTerm(e.target.value)}
             className="w-full pl-16 pr-6 py-5 rounded-full bg-white border-2 border-slate-100 text-lg focus:outline-none focus:border-blue-200 focus:ring-4 focus:ring-blue-500/10 shadow-lg shadow-slate-200/50 transition-all text-slate-800 placeholder:text-slate-400 font-medium"
           />
         </div>
 
         <div className="flex flex-wrap justify-center items-center gap-3 px-2">
           <button
-            onClick={() => setFilterType('All')}
+            onClick={() => changeFilterType('All')}
             className={`px-6 py-2.5 rounded-full text-sm font-bold transition-all ${filterType === 'All' ? 'bg-slate-900 text-white shadow-md' : 'bg-white text-slate-500 border border-slate-200 hover:border-slate-300 hover:bg-slate-50 hover:text-slate-700'}`}
           >
             All Chapters
           </button>
           <button
-            onClick={() => setFilterType('GDG')}
+            onClick={() => changeFilterType('GDG')}
             className={`px-6 py-2.5 rounded-full text-sm font-bold transition-all flex items-center gap-2 ${filterType === 'GDG' ? 'bg-blue-50 text-blue-700 border-2 border-blue-200 shadow-sm' : 'bg-white text-slate-500 border-2 border-transparent hover:border-slate-200 hover:bg-slate-50'}`}
           >
             <span className="material-symbols-outlined text-[18px]">group</span> GDG
           </button>
           <button
-            onClick={() => setFilterType('GDG Cloud')}
+            onClick={() => changeFilterType('GDG Cloud')}
             className={`px-6 py-2.5 rounded-full text-sm font-bold transition-all flex items-center gap-2 ${filterType === 'GDG Cloud' ? 'bg-cyan-50 text-cyan-700 border-2 border-cyan-200 shadow-sm' : 'bg-white text-slate-500 border-2 border-transparent hover:border-slate-200 hover:bg-slate-50'}`}
           >
             <span className="material-symbols-outlined text-[18px]">cloud</span> GDG Cloud
@@ -113,7 +97,7 @@ function App() {
             <input
               type="checkbox"
               checked={showOnlyWithEvents}
-              onChange={(e) => setShowOnlyWithEvents(e.target.checked)}
+              onChange={(e) => changeShowOnlyWithEvents(e.target.checked)}
               className="w-4 h-4 rounded border-slate-300 text-[var(--color-google-blue)] focus:ring-[var(--color-google-blue)]"
             />
             Has Upcoming Events
@@ -124,16 +108,16 @@ function App() {
       <div className="flex-1 overflow-hidden flex flex-col bg-slate-50/50 rounded-2xl border border-slate-100/50 p-4 md:p-6">
         <div className="flex justify-between items-center mb-6 px-2">
           <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">
-            {searchTerm || filterType !== 'All' ? `Found ${filteredChapters.length} results` : `Showing all ${chaptersData.length} chapters`}
+            {searchTerm || filterType !== 'All' || showOnlyWithEvents ? `Found ${filteredChapters.length} results` : `Showing all ${chapters.length} chapters`}
           </p>
         </div>
 
         <div className="overflow-y-auto flex-1 px-2 pb-4 hide-scrollbar">
           {displayedChapters.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
-              {displayedChapters.map((chapter, index) => (
+              {displayedChapters.map((chapter) => (
                 <a
-                  key={index}
+                  key={chapter.url}
                   href={chapter.url}
                   target="_blank"
                   rel="noreferrer"
@@ -145,7 +129,7 @@ function App() {
                         {chapter.type}
                       </div>
                       <div className="flex items-center gap-2">
-                        {chapter.events && chapter.events.length > 0 && (
+                        {chapter.events.length > 0 && (
                           <div className="bg-red-50 text-[var(--color-google-red)] border border-red-100 text-[9px] font-bold px-2 py-1 rounded-md shadow-sm flex items-center gap-1 animate-pulse" title={`${chapter.events.length} upcoming event(s)`}>
                             <span className="material-symbols-outlined text-[10px]">calendar_month</span>
                             {chapter.events.length} UPCOMING EVENT{chapter.events.length > 1 ? 'S' : ''}
@@ -171,7 +155,7 @@ function App() {
               <span className="material-symbols-outlined text-6xl mb-4 opacity-20">search_off</span>
               <p className="text-lg font-medium text-slate-500">No chapters found matching your criteria</p>
               <button
-                onClick={() => { setSearchTerm(''); setFilterType('All'); }}
+                onClick={() => { changeSearchTerm(''); changeFilterType('All'); }}
                 className="mt-4 text-sm font-bold text-[var(--color-google-blue)] hover:underline"
               >
                 Clear Filters
@@ -204,8 +188,8 @@ function App() {
   );
 
   const renderEvents = () => {
-    const allEvents = chaptersData.flatMap(chapter =>
-      (chapter.events || []).map(event => ({ ...event, chapter }))
+    const allEvents = chapters.flatMap(chapter =>
+      chapter.events.map(event => ({ ...event, chapter }))
     )
       .filter(event => {
         const searchLower = eventSearchTerm.toLowerCase();
@@ -234,7 +218,7 @@ function App() {
                 type="text"
                 placeholder="Search events, cities..."
                 value={eventSearchTerm}
-                onChange={(e) => setEventSearchTerm(e.target.value)}
+                onChange={(e) => changeEventSearchTerm(e.target.value)}
                 className="w-full pl-12 pr-4 py-2.5 rounded-full bg-white border border-slate-200 text-sm focus:outline-none focus:border-blue-200 focus:ring-2 focus:ring-blue-500/10 shadow-sm transition-all text-slate-800 placeholder:text-slate-400 font-medium"
               />
             </div>
@@ -248,7 +232,7 @@ function App() {
         <div className="overflow-y-auto flex-1 px-2 pb-4 hide-scrollbar">
           {displayedEvents.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {displayedEvents.map((event, index) => {
+              {displayedEvents.map((event) => {
                 const eventDate = new Date(event.start_date);
                 const day = eventDate.getDate();
                 const month = eventDate.toLocaleString('default', { month: 'short' });
@@ -256,7 +240,7 @@ function App() {
 
                 return (
                   <a
-                    key={index}
+                    key={`${event.chapter.url}-${event.url}-${event.start_date}`}
                     href={event.url}
                     target="_blank"
                     rel="noreferrer"
@@ -267,9 +251,11 @@ function App() {
                         <span className="text-xs font-bold uppercase">{month}</span>
                         <span className="text-xl font-black">{day}</span>
                       </div>
-                      <span className="text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wider bg-slate-50 text-slate-600 border border-slate-100">
-                        {event.type}
-                      </span>
+                      {event.type && (
+                        <span className="text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wider bg-slate-50 text-slate-600 border border-slate-100">
+                          {event.type}
+                        </span>
+                      )}
                     </div>
 
                     <div className="mt-auto">
@@ -330,7 +316,7 @@ function App() {
         <div className="w-full mt-12 columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-6 space-y-6">
           {photosData.slice(0, visiblePhotosCount).map((photo, index) => (
             <div
-              key={index}
+              key={photo}
               className="break-inside-avoid relative group rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 bg-slate-100 cursor-pointer"
               onClick={() => setSelectedPhotoIndex(index)}
             >
@@ -411,10 +397,10 @@ function App() {
 
       <nav className="fixed bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 z-50 w-[95vw] sm:w-max max-w-full">
         <div className="pill-nav rounded-full px-2 md:px-4 py-1.5 md:py-2 flex items-center gap-1 md:gap-2 overflow-x-auto hide-scrollbar w-full sm:w-auto mx-auto shadow-lg border border-slate-200/50">
-          <button onClick={() => setActiveTab('hub')} className={`px-4 md:px-6 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${activeTab === 'hub' ? 'bg-slate-900 text-white' : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100/50'}`}>Hub</button>
-          <button onClick={() => setActiveTab('chapters')} className={`px-4 md:px-6 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${activeTab === 'chapters' ? 'bg-slate-900 text-white' : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100/50'}`}>Chapters</button>
-          <button onClick={() => setActiveTab('events')} className={`px-4 md:px-6 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${activeTab === 'events' ? 'bg-slate-900 text-white' : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100/50'}`}>Events</button>
-          <a className="px-4 md:px-6 py-2 md:py-2.5 rounded-full text-slate-500 hover:text-slate-900 hover:bg-slate-100/50 transition-colors text-xs md:text-sm font-medium whitespace-nowrap flex-shrink-0" href="#" onClick={(e) => { e.preventDefault(); setActiveTab('gallery'); }}>Gallery</a>
+          <button onClick={() => selectTab('hub')} className={`px-4 md:px-6 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${activeTab === 'hub' ? 'bg-slate-900 text-white' : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100/50'}`}>Hub</button>
+          <button onClick={() => selectTab('chapters')} className={`px-4 md:px-6 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${activeTab === 'chapters' ? 'bg-slate-900 text-white' : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100/50'}`}>Chapters</button>
+          <button onClick={() => selectTab('events')} className={`px-4 md:px-6 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${activeTab === 'events' ? 'bg-slate-900 text-white' : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100/50'}`}>Events</button>
+          <a className="px-4 md:px-6 py-2 md:py-2.5 rounded-full text-slate-500 hover:text-slate-900 hover:bg-slate-100/50 transition-colors text-xs md:text-sm font-medium whitespace-nowrap flex-shrink-0" href="#" onClick={(e) => { e.preventDefault(); selectTab('gallery'); }}>Gallery</a>
           <a className="px-4 md:px-6 py-2 md:py-2.5 rounded-full text-slate-500 hover:text-slate-900 hover:bg-slate-100/50 transition-colors text-xs md:text-sm font-medium flex items-center gap-1 md:gap-1.5 whitespace-nowrap flex-shrink-0" href="https://github.com/GDG-India/awesome-gdg-gde" target="_blank" rel="noopener noreferrer">
             Resources <span className="material-symbols-outlined text-[14px] md:text-[16px] -mt-0.5">open_in_new</span>
           </a>
@@ -422,7 +408,7 @@ function App() {
       </nav>
       <main className="max-w-[1600px] mx-auto h-full flex flex-col pb-24">
         <header className="flex justify-between items-center mb-6 px-2">
-          <button onClick={() => setActiveTab('hub')} className="flex items-center gap-3 hover:opacity-80 transition-opacity focus:outline-none text-left">
+          <button onClick={() => selectTab('hub')} className="flex items-center gap-3 hover:opacity-80 transition-opacity focus:outline-none text-left">
             <img src="/gdg-logo.png" alt="GDG India Logo" className="h-8" />
             <span className="google-sans text-xl font-medium tracking-tight mt-1 text-slate-900 border-none outline-none">GDG <span className="text-slate-400">India</span></span>
           </button>
@@ -463,20 +449,20 @@ function App() {
                   <div>
                     <p className="text-slate-500 text-xs font-bold uppercase tracking-widest mb-1">Professional Chapters</p>
                     <div className="flex items-baseline gap-1">
-                      <span className="text-4xl font-black text-slate-900 tracking-tighter drop-shadow-sm">{chaptersData.length}</span>
+                      <span className="text-4xl font-black text-slate-900 tracking-tighter drop-shadow-sm">{chapters.length}</span>
                     </div>
                   </div>
                   <div>
                     <p className="text-slate-500 text-xs font-bold uppercase tracking-widest mb-1">Cities Across India</p>
                     <div className="flex items-baseline gap-1">
-                      <span className="text-4xl font-black text-[var(--color-google-blue)] tracking-tighter drop-shadow-sm">{new Set(chaptersData.map(c => c.city)).size}</span>
+                      <span className="text-4xl font-black text-[var(--color-google-blue)] tracking-tighter drop-shadow-sm">{new Set(chapters.map(c => c.city)).size}</span>
                     </div>
                   </div>
                   <div className="flex flex-col">
                     <p className="text-slate-500 text-xs font-bold uppercase tracking-widest mb-1">Upcoming Events</p>
                     <div className="flex items-baseline gap-1">
                       <span className="text-4xl font-black text-[var(--color-google-green)] tracking-tighter drop-shadow-sm">
-                        {chaptersData.reduce((acc, chapter) => acc + (chapter.events ? chapter.events.length : 0), 0)}
+                        {totalUpcomingEvents}
                       </span>
                     </div>
                   </div>
@@ -496,10 +482,10 @@ function App() {
                 </h3>
               </div>
               <div className="flex-1 w-full rounded-2xl overflow-hidden shadow-sm border border-slate-100 bg-slate-50 relative min-h-[400px]">
-                <GoogleIndiaMap />
+                <GoogleIndiaMap chapters={chapters} />
               </div>
             </aside>
-            <section className="col-span-12 row-span-4 bento-card p-6 md:p-12 bg-white border-2 border-slate-100 group cursor-pointer overflow-hidden relative" onClick={() => setActiveTab('gallery')}>
+            <section className="col-span-12 row-span-4 bento-card p-6 md:p-12 bg-white border-2 border-slate-100 group cursor-pointer overflow-hidden relative" onClick={() => selectTab('gallery')}>
               <div className="flex flex-col md:flex-row gap-8 md:gap-12 h-full items-center">
                 <div className="flex-1 flex flex-col justify-center h-full z-20">
                   <div>

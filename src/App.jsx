@@ -3,10 +3,26 @@ import './index.css';
 import chaptersData from './data/chapters.json';
 import photosData from './data/photos.json';
 import GoogleIndiaMap from './components/GoogleIndiaMap';
-import { withUpcomingEvents, pickRandom } from './lib/events';
+import { withUpcomingEvents, pickRandom, isDevFest, hasPlaceholderDate, eventSortDate } from './lib/events';
+
+// Each tab has its own URL so pages like /devfest can be linked directly.
+// nginx.conf serves index.html for unknown paths, so deep links work in production.
+const TAB_PATHS = {
+  hub: '/',
+  chapters: '/chapters',
+  events: '/events',
+  devfests: '/devfest',
+  gallery: '/gallery',
+};
+
+const tabFromPath = (pathname) => {
+  const path = pathname.replace(/\/+$/, '').toLowerCase() || '/';
+  if (path === '/devfests') return 'devfests';
+  return Object.keys(TAB_PATHS).find(tab => TAB_PATHS[tab] === path) || 'hub';
+};
 
 function App() {
-  const [activeTab, setActiveTab] = useState('hub');
+  const [activeTab, setActiveTab] = useState(() => tabFromPath(window.location.pathname));
   const [searchTerm, setSearchTerm] = useState('');
   const [filterType, setFilterType] = useState('All');
   const [showOnlyWithEvents, setShowOnlyWithEvents] = useState(false);
@@ -22,7 +38,22 @@ function App() {
   const totalUpcomingEvents = chapters.reduce((acc, chapter) => acc + chapter.events.length, 0);
 
   // Any change to a tab, search or filter starts again from page 1.
-  const selectTab = (tab) => { setActiveTab(tab); setCurrentPage(1); };
+  const selectTab = (tab) => {
+    setActiveTab(tab);
+    setCurrentPage(1);
+    if (window.location.pathname !== TAB_PATHS[tab]) {
+      window.history.pushState({}, '', TAB_PATHS[tab]);
+    }
+  };
+
+  useEffect(() => {
+    const handlePopState = () => {
+      setActiveTab(tabFromPath(window.location.pathname));
+      setCurrentPage(1);
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
   const changeSearchTerm = (value) => { setSearchTerm(value); setCurrentPage(1); };
   const changeFilterType = (value) => { setFilterType(value); setCurrentPage(1); };
   const changeShowOnlyWithEvents = (value) => { setShowOnlyWithEvents(value); setCurrentPage(1); };
@@ -187,28 +218,32 @@ function App() {
     </div>
   );
 
-  const renderEvents = () => {
-    const allEvents = chapters.flatMap(chapter =>
-      chapter.events.map(event => ({ ...event, chapter }))
-    )
-      .filter(event => {
-        const searchLower = eventSearchTerm.toLowerCase();
-        return event.title.toLowerCase().includes(searchLower) ||
-          event.chapter.name.toLowerCase().includes(searchLower) ||
-          event.chapter.city.toLowerCase().includes(searchLower);
-      })
-      .sort((a, b) => new Date(a.start_date) - new Date(b.start_date));
+  const allUpcomingEvents = chapters.flatMap(chapter =>
+    chapter.events.map(event => ({ ...event, chapter }))
+  );
+  const devFestEvents = allUpcomingEvents.filter(isDevFest);
+
+  // Shared list used by the Events and DevFests tabs.
+  const renderEventList = ({ heading, subheading, events, noun, emptyIcon, emptyText, accent }) => {
+    const searchLower = eventSearchTerm.toLowerCase();
+    const matchingEvents = events
+      .filter(event =>
+        event.title.toLowerCase().includes(searchLower) ||
+        event.chapter.name.toLowerCase().includes(searchLower) ||
+        event.chapter.city.toLowerCase().includes(searchLower)
+      )
+      .sort((a, b) => eventSortDate(a) - eventSortDate(b));
 
     const EVENTS_PER_PAGE = 12;
-    const totalEventPages = Math.ceil(allEvents.length / EVENTS_PER_PAGE);
-    const displayedEvents = allEvents.slice((currentPage - 1) * EVENTS_PER_PAGE, currentPage * EVENTS_PER_PAGE);
+    const totalEventPages = Math.ceil(matchingEvents.length / EVENTS_PER_PAGE);
+    const displayedEvents = matchingEvents.slice((currentPage - 1) * EVENTS_PER_PAGE, currentPage * EVENTS_PER_PAGE);
 
     return (
       <div className="flex-1 w-full bg-white/80 backdrop-blur-md rounded-3xl p-4 md:p-8 border border-white/40 shadow-sm flex flex-col mt-4">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 px-2 gap-4">
           <div className="flex flex-col">
-            <h2 className="google-sans text-3xl font-bold text-slate-900 tracking-tight">Upcoming Events</h2>
-            <p className="text-[10px] text-slate-400 font-medium mt-1 uppercase tracking-widest">Updated weekly once</p>
+            <h2 className="google-sans text-3xl font-bold text-slate-900 tracking-tight">{heading}</h2>
+            <p className="text-[10px] text-slate-400 font-medium mt-1 uppercase tracking-widest">{subheading}</p>
           </div>
 
           <div className="flex flex-col md:flex-row items-center gap-4 w-full md:w-auto">
@@ -216,7 +251,7 @@ function App() {
               <span className="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-xl font-bold">search</span>
               <input
                 type="text"
-                placeholder="Search events, cities..."
+                placeholder={`Search ${noun.toLowerCase()}, cities...`}
                 value={eventSearchTerm}
                 onChange={(e) => changeEventSearchTerm(e.target.value)}
                 className="w-full pl-12 pr-4 py-2.5 rounded-full bg-white border border-slate-200 text-sm focus:outline-none focus:border-blue-200 focus:ring-2 focus:ring-blue-500/10 shadow-sm transition-all text-slate-800 placeholder:text-slate-400 font-medium"
@@ -224,7 +259,7 @@ function App() {
             </div>
 
             <p className="text-sm font-bold text-slate-500 uppercase tracking-widest bg-slate-100 px-4 py-2.5 rounded-full whitespace-nowrap">
-              {eventSearchTerm ? `Found ${allEvents.length}` : `Showing ${allEvents.length}`} Events
+              {eventSearchTerm ? `Found ${matchingEvents.length}` : `Showing ${matchingEvents.length}`} {noun}
             </p>
           </div>
         </div>
@@ -233,10 +268,13 @@ function App() {
           {displayedEvents.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {displayedEvents.map((event) => {
+                const dateTBA = hasPlaceholderDate(event);
                 const eventDate = new Date(event.start_date);
-                const day = eventDate.getDate();
-                const month = eventDate.toLocaleString('default', { month: 'short' });
-                const time = eventDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                const day = dateTBA ? 'TBA' : eventDate.getDate();
+                const month = dateTBA ? 'Date' : eventDate.toLocaleString('default', { month: 'short' });
+                const time = dateTBA
+                  ? `Date to be announced, listed until ${new Date(event.end_date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' })}`
+                  : eventDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 
                 return (
                   <a
@@ -247,15 +285,22 @@ function App() {
                     className="p-6 rounded-2xl border border-slate-100 bg-white hover:border-blue-200 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group flex flex-col justify-between min-h-[220px] relative overflow-hidden"
                   >
                     <div className="flex justify-between items-start mb-4">
-                      <div className="flex flex-col items-center justify-center bg-blue-50 text-blue-700 rounded-xl w-14 h-14 border border-blue-100 shadow-sm transition-transform group-hover:scale-105">
+                      <div className={`flex flex-col items-center justify-center rounded-xl w-14 h-14 border shadow-sm transition-transform group-hover:scale-105 ${accent}`}>
                         <span className="text-xs font-bold uppercase">{month}</span>
-                        <span className="text-xl font-black">{day}</span>
+                        <span className={dateTBA ? 'text-sm font-black' : 'text-xl font-black'}>{day}</span>
                       </div>
-                      {event.type && (
-                        <span className="text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wider bg-slate-50 text-slate-600 border border-slate-100">
-                          {event.type}
-                        </span>
-                      )}
+                      <div className="flex items-center gap-1.5">
+                        {isDevFest(event) && (
+                          <span className="text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wider bg-red-50 text-[var(--color-google-red)] border border-red-100">
+                            DevFest
+                          </span>
+                        )}
+                        {event.type && (
+                          <span className="text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wider bg-slate-50 text-slate-600 border border-slate-100">
+                            {event.type}
+                          </span>
+                        )}
+                      </div>
                     </div>
 
                     <div className="mt-auto">
@@ -265,6 +310,10 @@ function App() {
                         <p className="text-[11px] font-bold text-slate-400 uppercase flex items-center gap-1.5 tracking-wider">
                           <span className="material-symbols-outlined text-[14px]">schedule</span>
                           {time}
+                        </p>
+                        <p className="text-[11px] font-bold text-slate-400 uppercase flex items-center gap-1.5 tracking-wider">
+                          <span className="material-symbols-outlined text-[14px]">location_on</span>
+                          {event.chapter.city}
                         </p>
                         <p className="text-[11px] font-bold text-slate-400 uppercase flex items-center gap-1.5 tracking-wider">
                           <span className="material-symbols-outlined text-[14px]">group</span>
@@ -278,8 +327,8 @@ function App() {
             </div>
           ) : (
             <div className="flex flex-col items-center justify-center h-full text-slate-400 pb-20">
-              <span className="material-symbols-outlined text-6xl mb-4 opacity-20">event_busy</span>
-              <p className="text-lg font-medium text-slate-500">No upcoming events found</p>
+              <span className="material-symbols-outlined text-6xl mb-4 opacity-20">{emptyIcon}</span>
+              <p className="text-lg font-medium text-slate-500">{emptyText}</p>
             </div>
           )}
 
@@ -306,6 +355,26 @@ function App() {
       </div>
     );
   };
+
+  const renderEvents = () => renderEventList({
+    heading: 'Upcoming Events',
+    subheading: 'Updated daily',
+    events: allUpcomingEvents,
+    noun: 'Events',
+    emptyIcon: 'event_busy',
+    emptyText: 'No upcoming events found',
+    accent: 'bg-blue-50 text-blue-700 border-blue-100',
+  });
+
+  const renderDevFests = () => renderEventList({
+    heading: 'DevFests',
+    subheading: 'Flagship conferences, roadshows and pre-DevFest sessions across India. Updated daily',
+    events: devFestEvents,
+    noun: 'DevFests',
+    emptyIcon: 'celebration',
+    emptyText: 'No upcoming DevFests announced yet',
+    accent: 'bg-red-50 text-[var(--color-google-red)] border-red-100',
+  });
 
   const renderGallery = () => (
     <div className="flex-1 w-full bg-white/80 backdrop-blur-md rounded-3xl p-4 md:p-8 border border-white/40 shadow-sm flex flex-col mt-4">
@@ -400,6 +469,7 @@ function App() {
           <button onClick={() => selectTab('hub')} className={`px-4 md:px-6 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${activeTab === 'hub' ? 'bg-slate-900 text-white' : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100/50'}`}>Hub</button>
           <button onClick={() => selectTab('chapters')} className={`px-4 md:px-6 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${activeTab === 'chapters' ? 'bg-slate-900 text-white' : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100/50'}`}>Chapters</button>
           <button onClick={() => selectTab('events')} className={`px-4 md:px-6 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${activeTab === 'events' ? 'bg-slate-900 text-white' : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100/50'}`}>Events</button>
+          <button onClick={() => selectTab('devfests')} className={`px-4 md:px-6 py-2 md:py-2.5 rounded-full text-xs md:text-sm font-medium transition-colors whitespace-nowrap flex-shrink-0 ${activeTab === 'devfests' ? 'bg-slate-900 text-white' : 'text-slate-500 hover:text-slate-900 hover:bg-slate-100/50'}`}>DevFests</button>
           <a className="px-4 md:px-6 py-2 md:py-2.5 rounded-full text-slate-500 hover:text-slate-900 hover:bg-slate-100/50 transition-colors text-xs md:text-sm font-medium whitespace-nowrap flex-shrink-0" href="#" onClick={(e) => { e.preventDefault(); selectTab('gallery'); }}>Gallery</a>
           <a className="px-4 md:px-6 py-2 md:py-2.5 rounded-full text-slate-500 hover:text-slate-900 hover:bg-slate-100/50 transition-colors text-xs md:text-sm font-medium flex items-center gap-1 md:gap-1.5 whitespace-nowrap flex-shrink-0" href="https://github.com/GDG-India/awesome-gdg-gde" target="_blank" rel="noopener noreferrer">
             Resources <span className="material-symbols-outlined text-[14px] md:text-[16px] -mt-0.5">open_in_new</span>
@@ -445,7 +515,7 @@ function App() {
               </div>
 
               <div className="relative z-10 mt-8">
-                <div className="flex items-end gap-8">
+                <div className="flex flex-wrap items-end gap-x-8 gap-y-4">
                   <div>
                     <p className="text-slate-500 text-xs font-bold uppercase tracking-widest mb-1">Professional Chapters</p>
                     <div className="flex items-baseline gap-1">
@@ -466,8 +536,16 @@ function App() {
                       </span>
                     </div>
                   </div>
+                  <div className="flex flex-col">
+                    <p className="text-slate-500 text-xs font-bold uppercase tracking-widest mb-1">DevFests</p>
+                    <div className="flex items-baseline gap-1">
+                      <span className="text-4xl font-black text-[var(--color-google-red)] tracking-tighter drop-shadow-sm">
+                        {devFestEvents.length}
+                      </span>
+                    </div>
+                  </div>
                 </div>
-                <p className="text-[10px] text-slate-400 font-medium mt-3 uppercase tracking-widest">Updated weekly once</p>
+                <p className="text-[10px] text-slate-400 font-medium mt-3 uppercase tracking-widest">Updated daily</p>
               </div>
 
               <div className="absolute -bottom-20 -right-20 opacity-[0.03] pointer-events-none">
@@ -514,6 +592,8 @@ function App() {
           renderChapters()
         ) : activeTab === 'events' ? (
           renderEvents()
+        ) : activeTab === 'devfests' ? (
+          renderDevFests()
         ) : activeTab === 'gallery' ? (
           renderGallery()
         ) : null}

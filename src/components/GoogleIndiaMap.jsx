@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { APIProvider, Map as GoogleMap, AdvancedMarker, Pin, InfoWindow } from '@vis.gl/react-google-maps';
+import { hasPlaceholderDate } from '../lib/events';
 
 // Mapping of known GDG India cities to approximate coordinates [longitude, latitude]
 // Used earlier for SVG Map, repurposing for Google Maps [latitude, longitude]
@@ -187,7 +188,9 @@ const GoogleIndiaMap = ({ chapters }) => {
                                                 </div>
                                                 <div className="text-[9px] text-slate-500 group-hover:text-blue-100 font-medium text-left flex items-center gap-1 w-full truncate">
                                                     <span className="material-symbols-outlined text-[10px]">event</span>
-                                                    {new Date(chap.events[0].start_date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}
+                                                    {hasPlaceholderDate(chap.events[0])
+                                                        ? 'Date to be announced'
+                                                        : new Date(chap.events[0].start_date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}
                                                 </div>
                                             </div>
                                         )}

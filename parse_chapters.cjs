@@ -1,9 +1,11 @@
 const fs = require('fs');
 
 const EVENTS_API = 'https://gdg.community.dev/api/event_slim/for_chapter';
+const EVENT_DETAIL_API = 'https://gdg.community.dev/api/event';
 const PAGE_SIZE = 50;
 // Small pause between chapters so the weekly scrape stays gentle on gdg.community.dev.
 const DELAY_BETWEEN_CHAPTERS_MS = 300;
+const DELAY_BETWEEN_EVENTS_MS = 150;
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -79,22 +81,47 @@ async function fetchAllLiveEvents(chapterId) {
     return results;
 }
 
+// The slim listing has no tags; the detail endpoint does. Tags drive the
+// DevFests tab, so one extra request per upcoming event is worth it.
+async function fetchEventTags(eventId) {
+    const res = await fetch(`${EVENT_DETAIL_API}/${eventId}/`);
+    if (!res.ok) throw new Error(`event detail request failed with HTTP ${res.status}`);
+    const data = await res.json();
+    return Array.isArray(data.tags) ? data.tags : [];
+}
+
 // `status=Live` means "published", not "upcoming", so past events come back
-// too. Keep only events that start today or later (the site applies the same
-// rule at render time, so this only keeps the committed file small).
-function toUpcomingEvents(rawEvents, now) {
+// too. Keep events that start today or later, or that have not ended yet
+// (organisers sometimes leave a placeholder start date on "save the date"
+// listings). The site applies the same rule at render time; this only keeps
+// the committed file small.
+async function toUpcomingEvents(rawEvents, now) {
     const startOfToday = new Date(now);
     startOfToday.setUTCHours(0, 0, 0, 0);
-    return rawEvents
-        .filter(e => e.start_date && new Date(e.start_date) >= startOfToday)
-        .map(e => ({
+    const notPast = (value) => value && new Date(value) >= startOfToday;
+    const upcoming = rawEvents
+        .filter(e => notPast(e.start_date) || notPast(e.end_date))
+        .sort((a, b) => new Date(a.start_date) - new Date(b.start_date));
+
+    const events = [];
+    for (const e of upcoming) {
+        let tags = [];
+        try {
+            tags = await fetchEventTags(e.id);
+        } catch (err) {
+            console.error(`  Could not fetch tags for "${e.title}": ${err.message}`);
+        }
+        events.push({
             title: e.title,
             start_date: e.start_date,
             end_date: e.end_date || null,
             url: e.static_url,
             type: AUDIENCE_LABELS[e.audience_type] || null,
-        }))
-        .sort((a, b) => new Date(a.start_date) - new Date(b.start_date));
+            tags,
+        });
+        await sleep(DELAY_BETWEEN_EVENTS_MS);
+    }
+    return events;
 }
 
 async function scrapeEvents() {
@@ -116,7 +143,7 @@ async function scrapeEvents() {
             if (!idMatch) throw new Error('chapter_id not found in page');
 
             const rawEvents = await fetchAllLiveEvents(idMatch[1]);
-            chapter.events = toUpcomingEvents(rawEvents, now);
+            chapter.events = await toUpcomingEvents(rawEvents, now);
         } catch (err) {
             failures++;
             console.error(`Error scraping ${chapter.name}: ${err.message}`);

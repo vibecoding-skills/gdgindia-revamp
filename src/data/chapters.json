@@ -78,6 +78,17 @@
     "url": "https://gdg.community.dev/gdg-nashik/",
     "events": [
       {
+        "title": "From Autocomplete to Production AI, Generative AI, Cloud & Modern Software Engineering",
+        "start_date": "2026-09-16T04:00:00Z",
+        "end_date": "2026-09-16T06:30:00Z",
+        "url": "https://gdg.community.dev/e/myuab6/",
+        "type": "In person",
+        "tags": [
+          "DevFest",
+          "Tech Talk / Meetup"
+        ]
+      },
+      {
         "title": "Build With Gemini: From Prompt to Prod - Pre DevFest Nashik 2026",
         "start_date": "2026-09-22T04:00:00Z",
         "end_date": "2026-09-22T08:30:00Z",
@@ -344,9 +355,20 @@
     "url": "https://gdg.community.dev/gdg-gandhinagar/",
     "events": [
       {
+        "title": "Road to DevFest Workshop: Digital Identity Unlocked",
+        "start_date": "2026-09-12T04:00:00Z",
+        "end_date": "2026-09-12T07:30:00Z",
+        "url": "https://gdg.community.dev/e/mwgjh9/",
+        "type": "In person",
+        "tags": [
+          "DevFest",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
         "title": "DevFest Gandhinagar 2026",
-        "start_date": "2026-08-04T13:18:15Z",
-        "end_date": "2026-10-31T14:18:15Z",
+        "start_date": "2026-11-01T02:30:00Z",
+        "end_date": "2026-11-01T12:30:00Z",
         "url": "https://gdg.community.dev/e/mnr36y/",
         "type": "In person",
         "tags": [
@@ -417,6 +439,29 @@
         "tags": [
           "Build with AI",
           "Community Building",
+          "DevFest",
+          "Tech Talk / Meetup"
+        ]
+      },
+      {
+        "title": "DevFest Roadshow #4 - Code for Communities",
+        "start_date": "2026-09-19T04:30:00Z",
+        "end_date": "2026-09-19T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mvey97/",
+        "type": "In person",
+        "tags": [
+          "Build with AI",
+          "DevFest",
+          "Hackathon"
+        ]
+      },
+      {
+        "title": "DevFest roadshow #3 -  Chennai React meetup",
+        "start_date": "2026-09-19T08:00:00Z",
+        "end_date": "2026-09-19T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mg84ma/",
+        "type": "In person",
+        "tags": [
           "DevFest",
           "Tech Talk / Meetup"
         ]

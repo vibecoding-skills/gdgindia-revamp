@@ -163,7 +163,22 @@
     "city": "Indore",
     "name": "GDG Cloud Indore",
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
-    "events": []
+    "events": [
+      {
+        "title": "Hands-On Workshop @ Prestige College (Exclusive for Prestige College Students)",
+        "start_date": "2026-09-15T05:30:00Z",
+        "end_date": "2026-09-15T07:00:00Z",
+        "url": "https://gdg.community.dev/e/mm3np4/",
+        "type": "In person",
+        "tags": [
+          "Build with AI",
+          "DevFest",
+          "Google Cloud",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -313,28 +328,6 @@
     "name": "GDG Goa",
     "url": "https://gdg.community.dev/gdg-goa/",
     "events": [
-      {
-        "title": "Cloud Connect Days 2026 - Goa [ Season 2 ]",
-        "start_date": "2026-09-11T04:00:00Z",
-        "end_date": "2026-09-11T07:30:00Z",
-        "url": "https://gdg.community.dev/e/mn8z4f/",
-        "type": "In person",
-        "tags": [
-          "Build with AI",
-          "Workshop / hands-on session"
-        ]
-      },
-      {
-        "title": "Code for Communities: Technology for Social Impact",
-        "start_date": "2026-09-11T04:00:00Z",
-        "end_date": "2026-09-11T12:00:00Z",
-        "url": "https://gdg.community.dev/e/mngxbf/",
-        "type": "In person",
-        "tags": [
-          "Build with AI",
-          "Tech Talk / Meetup"
-        ]
-      },
       {
         "title": "Cloud Connect Days 2026 - Goa [ Season 2 ]",
         "start_date": "2026-09-18T04:00:00Z",
@@ -670,11 +663,13 @@
       {
         "title": "DevFest Raipur 2026",
         "start_date": "2026-11-01T03:30:00Z",
-        "end_date": "2026-11-01T11:30:00Z",
+        "end_date": "2026-11-01T12:30:00Z",
         "url": "https://gdg.community.dev/e/mmp5ka/",
         "type": "In person",
         "tags": [
-          "DevFest"
+          "AI",
+          "DevFest",
+          "Web"
         ]
       }
     ]
@@ -737,7 +732,21 @@
     "city": "Bhopal",
     "name": "GDG Cloud Bhopal",
     "url": "https://gdg.community.dev/gdg-cloud-bhopal/",
-    "events": []
+    "events": [
+      {
+        "title": "Exploring Antigravity: A Hands-On Workshop",
+        "start_date": "2026-09-13T07:00:00Z",
+        "end_date": "2026-09-13T10:00:00Z",
+        "url": "https://gdg.community.dev/e/mzs45g/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "Build with AI",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -854,16 +863,7 @@
     "city": "Belagavi",
     "name": "GDG Belgaum",
     "url": "https://gdg.community.dev/gdg-belgaum/",
-    "events": [
-      {
-        "title": "Hands-on Workshop: Transform Data into Powerful Insights",
-        "start_date": "2026-09-11T12:30:00Z",
-        "end_date": "2026-09-11T14:30:00Z",
-        "url": "https://gdg.community.dev/e/mp542j/",
-        "type": "In person",
-        "tags": []
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",

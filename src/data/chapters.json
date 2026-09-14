@@ -185,16 +185,7 @@
     "city": "Kolkata",
     "name": "GDG Cloud Kolkata",
     "url": "https://gdg.community.dev/gdg-cloud-kolkata/",
-    "events": [
-      {
-        "title": "DEVX SUMMIT 2026",
-        "start_date": "2026-09-13T05:30:00Z",
-        "end_date": "2026-09-13T10:30:00Z",
-        "url": "https://gdg.community.dev/e/mcnbm7/",
-        "type": "In person",
-        "tags": []
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -238,7 +229,7 @@
     "url": "https://gdg.community.dev/gdg-cloud-new-delhi/",
     "events": [
       {
-        "title": "Beyond The Model: Code For Communities",
+        "title": "Build with AI: Code For Communities",
         "start_date": "2026-09-20T03:30:43Z",
         "end_date": "2026-09-20T11:00:43Z",
         "url": "https://gdg.community.dev/e/mpa54n/",
@@ -372,19 +363,6 @@
     "name": "GDG Chennai",
     "url": "https://gdg.community.dev/gdg-chennai/",
     "events": [
-      {
-        "title": "DevFest Roadshow #2 - From Mind to Universe: How Neuro-Science Shapes AI and AI Unlocks Cosmic Discoveries",
-        "start_date": "2026-09-13T04:30:00Z",
-        "end_date": "2026-09-13T11:30:00Z",
-        "url": "https://gdg.community.dev/e/m247qw/",
-        "type": "In person",
-        "tags": [
-          "Build with AI",
-          "Community Building",
-          "DevFest",
-          "Tech Talk / Meetup"
-        ]
-      },
       {
         "title": "DevFest roadshow #3 -  Chennai React meetup",
         "start_date": "2026-09-19T08:00:00Z",
@@ -642,42 +620,14 @@
     "city": "Bhubaneswar",
     "name": "GDG Cloud Bhubaneswar",
     "url": "https://gdg.community.dev/gdg-cloud-bhubaneswar/",
-    "events": [
-      {
-        "title": "Code for Communities 2.0",
-        "start_date": "2026-09-13T04:00:00Z",
-        "end_date": "2026-09-13T11:30:00Z",
-        "url": "https://gdg.community.dev/e/m9xgr2/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Google Cloud",
-          "Networking",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
     "city": "Bhopal",
     "name": "GDG Cloud Bhopal",
     "url": "https://gdg.community.dev/gdg-cloud-bhopal/",
-    "events": [
-      {
-        "title": "Exploring Antigravity: A Hands-On Workshop",
-        "start_date": "2026-09-13T07:00:00Z",
-        "end_date": "2026-09-13T10:00:00Z",
-        "url": "https://gdg.community.dev/e/mzs45g/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "Build with AI",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",

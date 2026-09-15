@@ -31,7 +31,8 @@
           "Conference",
           "DevFest",
           "Hackathon",
-          "Tech Talk / Meetup"
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
         ]
       }
     ]
@@ -85,7 +86,8 @@
         "type": "In person",
         "tags": [
           "DevFest",
-          "Tech Talk / Meetup"
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
         ]
       },
       {
@@ -98,6 +100,17 @@
           "Build with AI",
           "DevFest",
           "Workshop / hands-on session"
+        ]
+      },
+      {
+        "title": "DevFest Nashik 2026 - Where ideas ferment into innovation.",
+        "start_date": "2026-10-25T03:30:00Z",
+        "end_date": "2026-10-25T12:30:00Z",
+        "url": "https://gdg.community.dev/e/mrzxev/",
+        "type": "In person",
+        "tags": [
+          "Conference",
+          "DevFest"
         ]
       }
     ]
@@ -156,7 +169,23 @@
     "city": "Hubballi",
     "name": "GDG Hubli",
     "url": "https://gdg.community.dev/gdg-hubli/",
-    "events": []
+    "events": [
+      {
+        "title": "Code for Communities: Pre-DevFest Hubli 2026 Meetup",
+        "start_date": "2026-09-19T04:00:00Z",
+        "end_date": "2026-09-19T06:30:00Z",
+        "url": "https://gdg.community.dev/e/mzmyeu/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Build with AI",
+          "DevFest",
+          "Hackathon",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -173,6 +202,20 @@
         "tags": [
           "Build with AI",
           "DevFest",
+          "Google Cloud",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
+        "title": "Hands-On Workshop @IET-DAVV College (Exclusive for IET-DAVV College Students)",
+        "start_date": "2026-09-18T10:30:00Z",
+        "end_date": "2026-09-18T12:00:00Z",
+        "url": "https://gdg.community.dev/e/mwem9t/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Build with AI",
           "Google Cloud",
           "Tech Talk / Meetup",
           "Workshop / hands-on session"
@@ -263,7 +306,6 @@
           "AI - Gemini Enterprise Agent Platform",
           "AI - Gemma",
           "Build with AI",
-          "DevFest",
           "Firebase",
           "Google Cloud",
           "Hackathon",
@@ -383,7 +425,8 @@
         "tags": [
           "Build with AI",
           "DevFest",
-          "Hackathon"
+          "Hackathon",
+          "Workshop / hands-on session"
         ]
       },
       {
@@ -503,7 +546,20 @@
     "city": "Bangalore",
     "name": "GDG Bangalore",
     "url": "https://gdg.community.dev/gdg-bangalore/",
-    "events": []
+    "events": [
+      {
+        "title": "Build with Gemini - Bangalore",
+        "start_date": "2026-09-29T03:30:00Z",
+        "end_date": "2026-09-29T10:00:00Z",
+        "url": "https://gdg.community.dev/e/m727kk/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "Build with AI"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -588,8 +644,10 @@
         "type": "In person",
         "tags": [
           "AI",
+          "Conference",
           "DevFest",
-          "Web"
+          "Web",
+          "Workshop / hands-on session"
         ]
       }
     ]
@@ -671,7 +729,6 @@
         "type": "In person",
         "tags": [
           "Build with AI",
-          "DevFest",
           "Hackathon",
           "Workshop / hands-on session"
         ]

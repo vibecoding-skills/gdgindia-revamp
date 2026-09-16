@@ -56,7 +56,23 @@
     "city": "Nagpur",
     "name": "GDG Nagpur",
     "url": "https://gdg.community.dev/gdg-nagpur/",
-    "events": []
+    "events": [
+      {
+        "title": "Build with Communities 2nd Edition",
+        "start_date": "2026-09-27T04:30:00Z",
+        "end_date": "2026-09-27T09:30:00Z",
+        "url": "https://gdg.community.dev/e/mja92v/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Build with AI",
+          "Career Development",
+          "Community Building",
+          "Conference",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -134,7 +150,22 @@
     "city": "Mumbai",
     "name": "GDG MAD",
     "url": "https://gdg.community.dev/gdg-mad/",
-    "events": []
+    "events": [
+      {
+        "title": "Yes, AI Can Run on 8GB RAM and a Mobile GPU",
+        "start_date": "2026-09-26T04:00:00Z",
+        "end_date": "2026-09-26T08:30:00Z",
+        "url": "https://gdg.community.dev/e/mcgvxx/",
+        "type": "In person",
+        "tags": [
+          "AI - Gemini",
+          "AI - Gemma",
+          "Android",
+          "Firebase",
+          "Tech Talk / Meetup"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -193,20 +224,6 @@
     "name": "GDG Cloud Indore",
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
     "events": [
-      {
-        "title": "Hands-On Workshop @ Prestige College (Exclusive for Prestige College Students)",
-        "start_date": "2026-09-15T05:30:00Z",
-        "end_date": "2026-09-15T07:00:00Z",
-        "url": "https://gdg.community.dev/e/mm3np4/",
-        "type": "In person",
-        "tags": [
-          "Build with AI",
-          "DevFest",
-          "Google Cloud",
-          "Tech Talk / Meetup",
-          "Workshop / hands-on session"
-        ]
-      },
       {
         "title": "Hands-On Workshop @IET-DAVV College (Exclusive for IET-DAVV College Students)",
         "start_date": "2026-09-18T10:30:00Z",
@@ -699,7 +716,27 @@
     "city": "Kochi",
     "name": "GDG Cloud Kochi",
     "url": "https://gdg.community.dev/gdg-cloud-kochi/",
-    "events": []
+    "events": [
+      {
+        "title": "Google Cloud Community Day Kochi - 2026",
+        "start_date": "2026-11-14T03:30:00Z",
+        "end_date": "2026-11-14T13:00:00Z",
+        "url": "https://gdg.community.dev/e/m8q6bf/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "AI - Gemini Enterprise Agent Platform",
+          "AI - Gemma",
+          "Career Development",
+          "Conference",
+          "Google Cloud",
+          "Networking",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",

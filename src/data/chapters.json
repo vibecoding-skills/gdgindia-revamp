@@ -95,18 +95,6 @@
     "url": "https://gdg.community.dev/gdg-nashik/",
     "events": [
       {
-        "title": "From Autocomplete to Production AI, Generative AI, Cloud & Modern Software Engineering",
-        "start_date": "2026-09-16T04:00:00Z",
-        "end_date": "2026-09-16T06:30:00Z",
-        "url": "https://gdg.community.dev/e/myuab6/",
-        "type": "In person",
-        "tags": [
-          "DevFest",
-          "Tech Talk / Meetup",
-          "Workshop / hands-on session"
-        ]
-      },
-      {
         "title": "Build With Gemini: From Prompt to Prod - Pre DevFest Nashik 2026",
         "start_date": "2026-09-22T04:00:00Z",
         "end_date": "2026-09-22T08:30:00Z",
@@ -303,7 +291,23 @@
     "city": "Pune",
     "name": "GDG Cloud Pune",
     "url": "https://gdg.community.dev/gdg-cloud-pune/",
-    "events": []
+    "events": [
+      {
+        "title": "Build with AI - Code for Communities 2nd Edition: Pre CCD Event Series Workshop",
+        "start_date": "2026-09-26T04:30:00Z",
+        "end_date": "2026-09-26T09:30:00Z",
+        "url": "https://gdg.community.dev/e/m5huem/",
+        "type": "In person",
+        "tags": [
+          "AI - Gemini",
+          "Build with AI",
+          "DevFest",
+          "Google Cloud",
+          "Hackathon",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -444,6 +448,17 @@
           "DevFest",
           "Hackathon",
           "Workshop / hands-on session"
+        ]
+      },
+      {
+        "title": "DevFest Roadshow #6 - All About Data: Engineering, Cloud, Agents, Analytics & Beyond",
+        "start_date": "2026-09-26T04:30:00Z",
+        "end_date": "2026-09-26T08:30:00Z",
+        "url": "https://gdg.community.dev/e/m6c3yh/",
+        "type": "In person",
+        "tags": [
+          "DevFest",
+          "Tech Talk / Meetup"
         ]
       },
       {
@@ -674,7 +689,33 @@
     "city": "Noida",
     "name": "GDG Noida",
     "url": "https://gdg.community.dev/gdg-noida/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Noida 2026",
+        "start_date": "2026-10-10T04:30:00Z",
+        "end_date": "2026-10-10T14:00:00Z",
+        "url": "https://gdg.community.dev/e/mc99mk/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "AI - Gemma",
+          "Accessibility",
+          "Android",
+          "Angular",
+          "Community Building",
+          "Conference",
+          "DevFest",
+          "Flutter",
+          "Google Maps Platform",
+          "Networking",
+          "Tech Talk / Meetup",
+          "UX / UI Design",
+          "Web",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -780,8 +821,8 @@
     "events": [
       {
         "title": "code for communities",
-        "start_date": "2026-09-19T04:30:00Z",
-        "end_date": "2026-09-19T10:00:00Z",
+        "start_date": "2026-09-26T04:30:00Z",
+        "end_date": "2026-09-26T10:00:00Z",
         "url": "https://gdg.community.dev/e/mj2b5r/",
         "type": "In person",
         "tags": [
@@ -858,7 +899,16 @@
     "city": "Vijayawada",
     "name": "GDG Vijayawada",
     "url": "https://gdg.community.dev/gdg-vijayawada/",
-    "events": []
+    "events": [
+      {
+        "title": "Code of Communities: Pre-DevFest Kickoff",
+        "start_date": "2026-09-18T04:00:43Z",
+        "end_date": "2026-09-18T11:30:43Z",
+        "url": "https://gdg.community.dev/e/mw8vvk/",
+        "type": "In person",
+        "tags": []
+      }
+    ]
   },
   {
     "type": "GDG Cloud",

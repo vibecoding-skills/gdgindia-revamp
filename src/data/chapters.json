@@ -225,6 +225,21 @@
           "Tech Talk / Meetup",
           "Workshop / hands-on session"
         ]
+      },
+      {
+        "title": "Hands-On Workshop @Acropolis College (Exclusive for Acropolis College Students)",
+        "start_date": "2026-09-21T05:30:00Z",
+        "end_date": "2026-09-21T07:30:00Z",
+        "url": "https://gdg.community.dev/e/mbev9s/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Build with AI",
+          "Community Building",
+          "Google Cloud",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
       }
     ]
   },
@@ -331,6 +346,27 @@
           "Google Cloud",
           "Hackathon",
           "Workshop / hands-on session"
+        ]
+      },
+      {
+        "title": "Devfest Kolkata 2026",
+        "start_date": "2026-11-22T02:00:00Z",
+        "end_date": "2026-11-22T12:30:00Z",
+        "url": "https://gdg.community.dev/e/mggufj/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "AI - Gemini Enterprise Agent Platform",
+          "Android",
+          "Community Building",
+          "Conference",
+          "DevFest",
+          "Firebase",
+          "Flutter",
+          "Google Cloud",
+          "Networking",
+          "Web"
         ]
       }
     ]
@@ -653,7 +689,26 @@
     "city": "Lucknow",
     "name": "GDG Lucknow",
     "url": "https://gdg.community.dev/gdg-lucknow/",
-    "events": []
+    "events": [
+      {
+        "title": "Nirmāṇa 2.0: Building What's Needed",
+        "start_date": "2026-09-27T04:00:00Z",
+        "end_date": "2026-09-27T10:30:00Z",
+        "url": "https://gdg.community.dev/e/m6tk7g/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "AI - Gemma",
+          "Build with AI",
+          "Career Development",
+          "Community Building",
+          "DevFest",
+          "Google Cloud",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -899,16 +954,7 @@
     "city": "Vijayawada",
     "name": "GDG Vijayawada",
     "url": "https://gdg.community.dev/gdg-vijayawada/",
-    "events": [
-      {
-        "title": "Code of Communities: Pre-DevFest Kickoff",
-        "start_date": "2026-09-18T04:00:43Z",
-        "end_date": "2026-09-18T11:30:43Z",
-        "url": "https://gdg.community.dev/e/mw8vvk/",
-        "type": "In person",
-        "tags": []
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",

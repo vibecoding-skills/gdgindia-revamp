@@ -167,7 +167,19 @@
     "city": "Chandigarh",
     "name": "GDG Chandigarh",
     "url": "https://gdg.community.dev/gdg-chandigarh/",
-    "events": []
+    "events": [
+      {
+        "title": "Building production ready application with Gen AI",
+        "start_date": "2026-09-26T08:30:00Z",
+        "end_date": "2026-09-26T09:30:00Z",
+        "url": "https://gdg.community.dev/e/m29dvq/",
+        "type": "Virtual",
+        "tags": [
+          "AI",
+          "Tech Talk / Meetup"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -212,20 +224,6 @@
     "name": "GDG Cloud Indore",
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
     "events": [
-      {
-        "title": "Hands-On Workshop @IET-DAVV College (Exclusive for IET-DAVV College Students)",
-        "start_date": "2026-09-18T10:30:00Z",
-        "end_date": "2026-09-18T12:00:00Z",
-        "url": "https://gdg.community.dev/e/mwem9t/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Build with AI",
-          "Google Cloud",
-          "Tech Talk / Meetup",
-          "Workshop / hands-on session"
-        ]
-      },
       {
         "title": "Hands-On Workshop @Acropolis College (Exclusive for Acropolis College Students)",
         "start_date": "2026-09-21T05:30:00Z",
@@ -404,19 +402,7 @@
     "city": "Panaji",
     "name": "GDG Goa",
     "url": "https://gdg.community.dev/gdg-goa/",
-    "events": [
-      {
-        "title": "Cloud Connect Days 2026 - Goa [ Season 2 ]",
-        "start_date": "2026-09-18T04:00:00Z",
-        "end_date": "2026-09-18T07:30:00Z",
-        "url": "https://gdg.community.dev/e/mby2v4/",
-        "type": "In person",
-        "tags": [
-          "Build with AI",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -454,7 +440,25 @@
     "city": "Hyderabad",
     "name": "GDG Hyderabad",
     "url": "https://gdg.community.dev/gdg-hyderabad/",
-    "events": []
+    "events": [
+      {
+        "title": "Google DeepMind Hyderabad Hackathon",
+        "start_date": "2026-09-26T04:30:00Z",
+        "end_date": "2026-09-26T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mrcchy/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "AI - Gemma",
+          "Build with AI",
+          "Community Building",
+          "DevFest",
+          "Google Cloud",
+          "Hackathon"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -722,22 +726,7 @@
     "city": "Raipur",
     "name": "GDG Raipur",
     "url": "https://gdg.community.dev/gdg-raipur/",
-    "events": [
-      {
-        "title": "DevFest Raipur 2026",
-        "start_date": "2026-11-01T03:30:00Z",
-        "end_date": "2026-11-01T12:30:00Z",
-        "url": "https://gdg.community.dev/e/mmp5ka/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Conference",
-          "DevFest",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",

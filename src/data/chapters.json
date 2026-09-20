@@ -200,23 +200,7 @@
     "city": "Hubballi",
     "name": "GDG Hubli",
     "url": "https://gdg.community.dev/gdg-hubli/",
-    "events": [
-      {
-        "title": "Code for Communities: Pre-DevFest Hubli 2026 Meetup",
-        "start_date": "2026-09-19T04:00:00Z",
-        "end_date": "2026-09-19T06:30:00Z",
-        "url": "https://gdg.community.dev/e/mzmyeu/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Build with AI",
-          "DevFest",
-          "Hackathon",
-          "Tech Talk / Meetup",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -467,17 +451,6 @@
     "url": "https://gdg.community.dev/gdg-chennai/",
     "events": [
       {
-        "title": "DevFest roadshow #3 -  Chennai React meetup",
-        "start_date": "2026-09-19T08:00:00Z",
-        "end_date": "2026-09-19T11:30:00Z",
-        "url": "https://gdg.community.dev/e/mg84ma/",
-        "type": "In person",
-        "tags": [
-          "DevFest",
-          "Tech Talk / Meetup"
-        ]
-      },
-      {
         "title": "DevFest Roadshow #4 - Code for Communities",
         "start_date": "2026-09-26T03:30:00Z",
         "end_date": "2026-09-26T11:30:00Z",
@@ -551,28 +524,6 @@
     "name": "GDG Jalandhar",
     "url": "https://gdg.community.dev/gdg-jalandhar/",
     "events": [
-      {
-        "title": "Code for Communities: Women in Tech Punjab",
-        "start_date": "2026-09-19T04:00:00Z",
-        "end_date": "2026-09-19T11:00:00Z",
-        "url": "https://gdg.community.dev/e/mwgf4v/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "AI - Gemma",
-          "Android",
-          "Angular",
-          "Build with AI",
-          "Community Building",
-          "Firebase",
-          "Flutter",
-          "Google Cloud",
-          "Hackathon",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      },
       {
         "title": "Build with AI: Workshop",
         "start_date": "2026-10-10T03:30:00Z",
@@ -677,16 +628,7 @@
     "city": "Jammu",
     "name": "GDG Jammu",
     "url": "https://gdg.community.dev/gdg-jammu/",
-    "events": [
-      {
-        "title": "AI-Assisted Coding: A Beginner's Guide",
-        "start_date": "2026-09-19T05:30:00Z",
-        "end_date": "2026-09-19T08:00:00Z",
-        "url": "https://gdg.community.dev/e/mjva3p/",
-        "type": "In person",
-        "tags": []
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -726,7 +668,22 @@
     "city": "Raipur",
     "name": "GDG Raipur",
     "url": "https://gdg.community.dev/gdg-raipur/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Raipur 2026",
+        "start_date": "2026-11-01T03:30:00Z",
+        "end_date": "2026-11-01T12:30:00Z",
+        "url": "https://gdg.community.dev/e/mmp5ka/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Conference",
+          "DevFest",
+          "Web",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -842,20 +799,7 @@
     "city": "Nagpur",
     "name": "GDG Cloud Nagpur",
     "url": "https://gdg.community.dev/gdg-cloud-nagpur/",
-    "events": [
-      {
-        "title": "Code for Communities 2.0 | Build with AI",
-        "start_date": "2026-09-19T03:30:00Z",
-        "end_date": "2026-09-19T12:00:00Z",
-        "url": "https://gdg.community.dev/e/mr4zrd/",
-        "type": "In person",
-        "tags": [
-          "Build with AI",
-          "Hackathon",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",

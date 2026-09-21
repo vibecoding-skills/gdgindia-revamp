@@ -272,16 +272,7 @@
     "city": "Delhi",
     "name": "GDG Cloud New Delhi",
     "url": "https://gdg.community.dev/gdg-cloud-new-delhi/",
-    "events": [
-      {
-        "title": "Build with AI: Code For Communities",
-        "start_date": "2026-09-20T03:30:43Z",
-        "end_date": "2026-09-20T11:00:43Z",
-        "url": "https://gdg.community.dev/e/mpa54n/",
-        "type": "In person",
-        "tags": []
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -441,6 +432,23 @@
           "Google Cloud",
           "Hackathon"
         ]
+      },
+      {
+        "title": "DevFest Hyderabad 2026",
+        "start_date": "2026-10-24T03:00:00Z",
+        "end_date": "2026-10-24T13:00:00Z",
+        "url": "https://gdg.community.dev/e/mbrb6d/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Build with AI",
+          "Community Building",
+          "DevFest",
+          "Firebase",
+          "Google Cloud",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
       }
     ]
   },
@@ -464,7 +472,7 @@
         ]
       },
       {
-        "title": "DevFest Roadshow #6 - All About Data: Engineering, Cloud, Agents, Analytics & Beyond",
+        "title": "DevFest Roadshow #5 - All About Data: Engineering, Cloud, Agents, Analytics & Beyond",
         "start_date": "2026-09-26T04:30:00Z",
         "end_date": "2026-09-26T08:30:00Z",
         "url": "https://gdg.community.dev/e/m6c3yh/",

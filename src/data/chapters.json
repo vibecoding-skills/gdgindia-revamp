@@ -209,17 +209,46 @@
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
     "events": [
       {
-        "title": "Hands-On Workshop @Acropolis College (Exclusive for Acropolis College Students)",
-        "start_date": "2026-09-21T05:30:00Z",
-        "end_date": "2026-09-21T07:30:00Z",
-        "url": "https://gdg.community.dev/e/mbev9s/",
+        "title": "Hands-On Workshop @SAGE College (Exclusive for SAGE College Students)",
+        "start_date": "2026-09-23T06:30:00Z",
+        "end_date": "2026-09-23T08:00:00Z",
+        "url": "https://gdg.community.dev/e/mv6tcr/",
         "type": "In person",
         "tags": [
           "AI",
-          "Build with AI",
           "Community Building",
+          "DevFest",
           "Google Cloud",
-          "Tech Talk / Meetup",
+          "Networking",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
+        "title": "Hands-On Workshop @IPS College (Exclusive for IPS College Students)",
+        "start_date": "2026-09-24T09:30:00Z",
+        "end_date": "2026-09-24T11:00:00Z",
+        "url": "https://gdg.community.dev/e/mcrtbs/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Community Building",
+          "DevFest",
+          "Google Cloud",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
+        "title": "Hands-On Workshop @SGSITS College (Exclusive for SGSITS College Students)",
+        "start_date": "2026-09-24T11:30:00Z",
+        "end_date": "2026-09-24T13:00:00Z",
+        "url": "https://gdg.community.dev/e/mmdqx5/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Community Building",
+          "DevFest",
+          "Google Cloud",
+          "Networking",
           "Workshop / hands-on session"
         ]
       }
@@ -752,7 +781,19 @@
     "city": "Bhopal",
     "name": "GDG Cloud Bhopal",
     "url": "https://gdg.community.dev/gdg-cloud-bhopal/",
-    "events": []
+    "events": [
+      {
+        "title": "Code for Communities 2.0 | Bhopal",
+        "start_date": "2026-10-03T06:30:00Z",
+        "end_date": "2026-10-03T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mvfc5m/",
+        "type": "In person",
+        "tags": [
+          "Build with AI",
+          "DevFest"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -767,6 +808,21 @@
     "name": "GDG Cloud Kochi",
     "url": "https://gdg.community.dev/gdg-cloud-kochi/",
     "events": [
+      {
+        "title": "[CCD Pre-Event] Where is the Meaning?",
+        "start_date": "2026-09-27T04:30:00Z",
+        "end_date": "2026-09-27T11:00:00Z",
+        "url": "https://gdg.community.dev/e/mcycat/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "AI - Gemma",
+          "Build with AI",
+          "Google Cloud",
+          "Workshop / hands-on session"
+        ]
+      },
       {
         "title": "Google Cloud Community Day Kochi - 2026",
         "start_date": "2026-11-14T03:30:00Z",
@@ -923,7 +979,23 @@
     "city": "Rajkot",
     "name": "GDG Cloud Rajkot",
     "url": "https://gdg.community.dev/gdg-cloud-rajkot/",
-    "events": []
+    "events": [
+      {
+        "title": "Build with AI: Code for Communities 2.0 Workshops | GDG Cloud Rajkot",
+        "start_date": "2026-09-27T04:30:00Z",
+        "end_date": "2026-09-27T08:30:00Z",
+        "url": "https://gdg.community.dev/e/mz8e7h/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "Build with AI",
+          "Google Cloud",
+          "Hackathon",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",

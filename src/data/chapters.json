@@ -95,18 +95,6 @@
     "url": "https://gdg.community.dev/gdg-nashik/",
     "events": [
       {
-        "title": "Build With Gemini: From Prompt to Prod - Pre DevFest Nashik 2026",
-        "start_date": "2026-09-22T04:00:00Z",
-        "end_date": "2026-09-22T08:30:00Z",
-        "url": "https://gdg.community.dev/e/m9n3y6/",
-        "type": "In person",
-        "tags": [
-          "Build with AI",
-          "DevFest",
-          "Workshop / hands-on session"
-        ]
-      },
-      {
         "title": "DevFest Nashik 2026 - Where ideas ferment into innovation.",
         "start_date": "2026-10-25T03:30:00Z",
         "end_date": "2026-10-25T12:30:00Z",
@@ -208,6 +196,22 @@
     "name": "GDG Cloud Indore",
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
     "events": [
+      {
+        "title": "Hands-On Workshop @Aurbindo College (Exclusive for Aurbindo College Students)",
+        "start_date": "2026-09-23T04:30:00Z",
+        "end_date": "2026-09-23T06:00:00Z",
+        "url": "https://gdg.community.dev/e/my9c8r/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Angular",
+          "Build with AI",
+          "Community Building",
+          "DevFest",
+          "Google Cloud",
+          "Workshop / hands-on session"
+        ]
+      },
       {
         "title": "Hands-On Workshop @SAGE College (Exclusive for SAGE College Students)",
         "start_date": "2026-09-23T06:30:00Z",
@@ -318,7 +322,6 @@
         "tags": [
           "AI - Gemini",
           "Build with AI",
-          "DevFest",
           "Google Cloud",
           "Hackathon",
           "Workshop / hands-on session"
@@ -368,7 +371,8 @@
           "Flutter",
           "Google Cloud",
           "Networking",
-          "Web"
+          "Web",
+          "Workshop / hands-on session"
         ]
       }
     ]
@@ -457,7 +461,6 @@
           "AI - Gemma",
           "Build with AI",
           "Community Building",
-          "DevFest",
           "Google Cloud",
           "Hackathon"
         ]
@@ -686,7 +689,6 @@
           "Build with AI",
           "Career Development",
           "Community Building",
-          "DevFest",
           "Google Cloud",
           "Workshop / hands-on session"
         ]
@@ -784,13 +786,12 @@
     "events": [
       {
         "title": "Code for Communities 2.0 | Bhopal",
-        "start_date": "2026-10-03T06:30:00Z",
+        "start_date": "2026-10-03T05:30:00Z",
         "end_date": "2026-10-03T11:30:00Z",
         "url": "https://gdg.community.dev/e/mvfc5m/",
         "type": "In person",
         "tags": [
-          "Build with AI",
-          "DevFest"
+          "Build with AI"
         ]
       }
     ]
@@ -1010,6 +1011,21 @@
         "url": "https://gdg.community.dev/e/mgzgew/",
         "type": "In person",
         "tags": []
+      },
+      {
+        "title": "Google Cloud Community Days Udaipur 2026",
+        "start_date": "2026-12-06T03:30:00Z",
+        "end_date": "2026-12-06T12:30:00Z",
+        "url": "https://gdg.community.dev/e/my9c9g/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "Build with AI",
+          "DevFest",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
       }
     ]
   },

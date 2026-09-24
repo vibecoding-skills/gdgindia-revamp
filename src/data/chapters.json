@@ -197,37 +197,6 @@
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
     "events": [
       {
-        "title": "Hands-On Workshop @Aurbindo College (Exclusive for Aurbindo College Students)",
-        "start_date": "2026-09-23T04:30:00Z",
-        "end_date": "2026-09-23T06:00:00Z",
-        "url": "https://gdg.community.dev/e/my9c8r/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Angular",
-          "Build with AI",
-          "Community Building",
-          "DevFest",
-          "Google Cloud",
-          "Workshop / hands-on session"
-        ]
-      },
-      {
-        "title": "Hands-On Workshop @SAGE College (Exclusive for SAGE College Students)",
-        "start_date": "2026-09-23T06:30:00Z",
-        "end_date": "2026-09-23T08:00:00Z",
-        "url": "https://gdg.community.dev/e/mv6tcr/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Community Building",
-          "DevFest",
-          "Google Cloud",
-          "Networking",
-          "Workshop / hands-on session"
-        ]
-      },
-      {
         "title": "Hands-On Workshop @IPS College (Exclusive for IPS College Students)",
         "start_date": "2026-09-24T09:30:00Z",
         "end_date": "2026-09-24T11:00:00Z",
@@ -410,7 +379,18 @@
     "city": "Panaji",
     "name": "GDG Goa",
     "url": "https://gdg.community.dev/gdg-goa/",
-    "events": []
+    "events": [
+      {
+        "title": "Devfest Goa 2026 Goa",
+        "start_date": "2026-10-10T04:00:00Z",
+        "end_date": "2026-10-10T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mjdyrg/",
+        "type": "In person",
+        "tags": [
+          "DevFest"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -505,13 +485,47 @@
       },
       {
         "title": "DevFest Roadshow #5 - All About Data: Engineering, Cloud, Agents, Analytics & Beyond",
-        "start_date": "2026-09-26T04:30:00Z",
+        "start_date": "2026-09-26T03:30:00Z",
         "end_date": "2026-09-26T08:30:00Z",
         "url": "https://gdg.community.dev/e/m6c3yh/",
         "type": "In person",
         "tags": [
+          "Build with AI",
           "DevFest",
           "Tech Talk / Meetup"
+        ]
+      },
+      {
+        "title": "DevFest Roadshow #7 - Agentic AI at Enterprise Level",
+        "start_date": "2026-09-26T03:30:00Z",
+        "end_date": "2026-09-26T08:00:00Z",
+        "url": "https://gdg.community.dev/e/m5czst/",
+        "type": "In person",
+        "tags": [
+          "DevFest",
+          "Tech Talk / Meetup"
+        ]
+      },
+      {
+        "title": "DevFest Roadshow #6 - AI in Action",
+        "start_date": "2026-09-26T07:30:00Z",
+        "end_date": "2026-09-26T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mpht2s/",
+        "type": "In person",
+        "tags": [
+          "DevFest",
+          "Tech Talk / Meetup"
+        ]
+      },
+      {
+        "title": "DevFest Roadshow #8 - KUG Shipaton",
+        "start_date": "2026-10-10T03:30:00Z",
+        "end_date": "2026-10-10T12:30:00Z",
+        "url": "https://gdg.community.dev/e/mzxq5u/",
+        "type": "Virtual",
+        "tags": [
+          "DevFest",
+          "Hackathon"
         ]
       },
       {
@@ -864,7 +878,18 @@
     "city": "Nagpur",
     "name": "GDG Cloud Nagpur",
     "url": "https://gdg.community.dev/gdg-cloud-nagpur/",
-    "events": []
+    "events": [
+      {
+        "title": "HACKTOBERFEST X GDG Cloud Nagpur",
+        "start_date": "2026-10-03T04:30:00Z",
+        "end_date": "2026-10-03T08:30:00Z",
+        "url": "https://gdg.community.dev/e/m64c3k/",
+        "type": "In person",
+        "tags": [
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -952,7 +977,21 @@
     "city": "Vijayawada",
     "name": "GDG Vijayawada",
     "url": "https://gdg.community.dev/gdg-vijayawada/",
-    "events": []
+    "events": [
+      {
+        "title": "Ontology-Augmented Generation: Enhancing AI with Structured Knowledge",
+        "start_date": "2026-09-26T12:30:27Z",
+        "end_date": "2026-09-26T14:30:27Z",
+        "url": "https://gdg.community.dev/e/m45y6m/",
+        "type": "Virtual",
+        "tags": [
+          "Conference",
+          "DevFest",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",

@@ -195,37 +195,7 @@
     "city": "Indore",
     "name": "GDG Cloud Indore",
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
-    "events": [
-      {
-        "title": "Hands-On Workshop @IPS College (Exclusive for IPS College Students)",
-        "start_date": "2026-09-24T09:30:00Z",
-        "end_date": "2026-09-24T11:00:00Z",
-        "url": "https://gdg.community.dev/e/mcrtbs/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Community Building",
-          "DevFest",
-          "Google Cloud",
-          "Workshop / hands-on session"
-        ]
-      },
-      {
-        "title": "Hands-On Workshop @SGSITS College (Exclusive for SGSITS College Students)",
-        "start_date": "2026-09-24T11:30:00Z",
-        "end_date": "2026-09-24T13:00:00Z",
-        "url": "https://gdg.community.dev/e/mmdqx5/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Community Building",
-          "DevFest",
-          "Google Cloud",
-          "Networking",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -888,6 +858,20 @@
         "tags": [
           "Workshop / hands-on session"
         ]
+      },
+      {
+        "title": "DevFest Nagpur 2026",
+        "start_date": "2026-11-14T04:30:00Z",
+        "end_date": "2026-11-14T12:30:00Z",
+        "url": "https://gdg.community.dev/e/mrtq7c/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Conference",
+          "DevFest",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
       }
     ]
   },
@@ -980,8 +964,8 @@
     "events": [
       {
         "title": "Ontology-Augmented Generation: Enhancing AI with Structured Knowledge",
-        "start_date": "2026-09-26T12:30:27Z",
-        "end_date": "2026-09-26T14:30:27Z",
+        "start_date": "2026-09-27T12:30:27Z",
+        "end_date": "2026-09-27T14:30:27Z",
         "url": "https://gdg.community.dev/e/m45y6m/",
         "type": "Virtual",
         "tags": [
@@ -1031,6 +1015,22 @@
           "AI - Gemini",
           "Build with AI",
           "Google Cloud",
+          "Hackathon",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
+        "title": "TechArena 2026 - Workshop & Hackathon: GDG Cloud Rajkot x Christ College Rajkot",
+        "start_date": "2026-09-30T02:30:00Z",
+        "end_date": "2026-09-30T11:30:00Z",
+        "url": "https://gdg.community.dev/e/m4pqsk/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - AI Studio",
+          "AI - Gemini",
+          "Build with AI",
+          "Community Building",
           "Hackathon",
           "Workshop / hands-on session"
         ]

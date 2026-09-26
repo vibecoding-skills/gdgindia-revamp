@@ -4,7 +4,16 @@
     "city": "Salem",
     "name": "GDG Salem",
     "url": "https://gdg.community.dev/gdg-salem/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest 2026",
+        "start_date": "2026-10-31T02:30:00Z",
+        "end_date": "2026-10-31T11:00:00Z",
+        "url": "https://gdg.community.dev/e/mmt44t/",
+        "type": "In person",
+        "tags": []
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -195,7 +204,38 @@
     "city": "Indore",
     "name": "GDG Cloud Indore",
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
-    "events": []
+    "events": [
+      {
+        "title": "Hands-On Workshop @CDGI College (Exclusive for CDGI College Students)",
+        "start_date": "2026-09-28T05:30:00Z",
+        "end_date": "2026-09-28T07:30:00Z",
+        "url": "https://gdg.community.dev/e/mgxq4s/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Community Building",
+          "DevFest",
+          "Google Cloud",
+          "Networking",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
+        "title": "Hands-On Workshop @Medicaps College (Exclusive for Medicaps College Students)",
+        "start_date": "2026-10-05T06:00:00Z",
+        "end_date": "2026-10-05T07:30:00Z",
+        "url": "https://gdg.community.dev/e/mpzzf7/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Community Building",
+          "DevFest",
+          "Google Cloud",
+          "Networking",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",

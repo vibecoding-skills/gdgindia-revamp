@@ -27,24 +27,7 @@
     "city": "Gwalior",
     "name": "GDG Gwalior",
     "url": "https://gdg.community.dev/gdg-gwalior/",
-    "events": [
-      {
-        "title": "Build with AI - Code for Communities 2.0 – Gwalior Edition | Pre-DevFest 2026",
-        "start_date": "2026-09-26T04:30:00Z",
-        "end_date": "2026-09-26T12:00:00Z",
-        "url": "https://gdg.community.dev/e/m4f89f/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Build with AI",
-          "Conference",
-          "DevFest",
-          "Hackathon",
-          "Tech Talk / Meetup",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -80,6 +63,18 @@
           "Conference",
           "Workshop / hands-on session"
         ]
+      },
+      {
+        "title": "Pre-DevFest Celebrations",
+        "start_date": "2026-10-04T04:30:00Z",
+        "end_date": "2026-10-04T09:30:00Z",
+        "url": "https://gdg.community.dev/e/mm7dah/",
+        "type": "In person",
+        "tags": [
+          "Conference",
+          "DevFest",
+          "Tech Talk / Meetup"
+        ]
       }
     ]
   },
@@ -103,6 +98,17 @@
     "name": "GDG Nashik",
     "url": "https://gdg.community.dev/gdg-nashik/",
     "events": [
+      {
+        "title": "Build with AI: Anybody Can Code - 🚀 Pre-Devfest Nashik 2026",
+        "start_date": "2026-09-29T04:30:00Z",
+        "end_date": "2026-09-29T08:30:00Z",
+        "url": "https://gdg.community.dev/e/mc7t5c/",
+        "type": "In person",
+        "tags": [
+          "Build with AI",
+          "DevFest"
+        ]
+      },
       {
         "title": "DevFest Nashik 2026 - Where ideas ferment into innovation.",
         "start_date": "2026-10-25T03:30:00Z",
@@ -135,22 +141,7 @@
     "city": "Mumbai",
     "name": "GDG MAD",
     "url": "https://gdg.community.dev/gdg-mad/",
-    "events": [
-      {
-        "title": "Yes, AI Can Run on 8GB RAM and a Mobile GPU",
-        "start_date": "2026-09-26T04:00:00Z",
-        "end_date": "2026-09-26T08:30:00Z",
-        "url": "https://gdg.community.dev/e/mcgvxx/",
-        "type": "In person",
-        "tags": [
-          "AI - Gemini",
-          "AI - Gemma",
-          "Android",
-          "Firebase",
-          "Tech Talk / Meetup"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -164,19 +155,7 @@
     "city": "Chandigarh",
     "name": "GDG Chandigarh",
     "url": "https://gdg.community.dev/gdg-chandigarh/",
-    "events": [
-      {
-        "title": "Building production ready application with Gen AI",
-        "start_date": "2026-09-26T08:30:00Z",
-        "end_date": "2026-09-26T09:30:00Z",
-        "url": "https://gdg.community.dev/e/m29dvq/",
-        "type": "Virtual",
-        "tags": [
-          "AI",
-          "Tech Talk / Meetup"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -291,22 +270,7 @@
     "city": "Pune",
     "name": "GDG Cloud Pune",
     "url": "https://gdg.community.dev/gdg-cloud-pune/",
-    "events": [
-      {
-        "title": "Build with AI - Code for Communities 2nd Edition: Pre CCD Event Series Workshop",
-        "start_date": "2026-09-26T04:30:00Z",
-        "end_date": "2026-09-26T09:30:00Z",
-        "url": "https://gdg.community.dev/e/m5huem/",
-        "type": "In person",
-        "tags": [
-          "AI - Gemini",
-          "Build with AI",
-          "Google Cloud",
-          "Hackathon",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -314,24 +278,6 @@
     "name": "GDG Kolkata",
     "url": "https://gdg.community.dev/gdg-kolkata/",
     "events": [
-      {
-        "title": "Build with AI: Code for Communities by GDG Kolkata",
-        "start_date": "2026-09-26T05:30:00Z",
-        "end_date": "2026-09-26T10:30:00Z",
-        "url": "https://gdg.community.dev/e/mmf2wr/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "AI - Gemini Enterprise Agent Platform",
-          "AI - Gemma",
-          "Build with AI",
-          "Firebase",
-          "Google Cloud",
-          "Hackathon",
-          "Workshop / hands-on session"
-        ]
-      },
       {
         "title": "Devfest Kolkata 2026",
         "start_date": "2026-11-22T02:00:00Z",
@@ -440,22 +386,6 @@
     "url": "https://gdg.community.dev/gdg-hyderabad/",
     "events": [
       {
-        "title": "Google DeepMind Hyderabad Hackathon",
-        "start_date": "2026-09-26T04:30:00Z",
-        "end_date": "2026-09-26T11:30:00Z",
-        "url": "https://gdg.community.dev/e/mrcchy/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "AI - Gemma",
-          "Build with AI",
-          "Community Building",
-          "Google Cloud",
-          "Hackathon"
-        ]
-      },
-      {
         "title": "DevFest Hyderabad 2026",
         "start_date": "2026-10-24T03:00:00Z",
         "end_date": "2026-10-24T13:00:00Z",
@@ -480,53 +410,6 @@
     "name": "GDG Chennai",
     "url": "https://gdg.community.dev/gdg-chennai/",
     "events": [
-      {
-        "title": "DevFest Roadshow #4 - Code for Communities",
-        "start_date": "2026-09-26T03:30:00Z",
-        "end_date": "2026-09-26T11:30:00Z",
-        "url": "https://gdg.community.dev/e/mvey97/",
-        "type": "In person",
-        "tags": [
-          "Build with AI",
-          "DevFest",
-          "Hackathon",
-          "Workshop / hands-on session"
-        ]
-      },
-      {
-        "title": "DevFest Roadshow #5 - All About Data: Engineering, Cloud, Agents, Analytics & Beyond",
-        "start_date": "2026-09-26T03:30:00Z",
-        "end_date": "2026-09-26T08:30:00Z",
-        "url": "https://gdg.community.dev/e/m6c3yh/",
-        "type": "In person",
-        "tags": [
-          "Build with AI",
-          "DevFest",
-          "Tech Talk / Meetup"
-        ]
-      },
-      {
-        "title": "DevFest Roadshow #7 - Agentic AI at Enterprise Level",
-        "start_date": "2026-09-26T03:30:00Z",
-        "end_date": "2026-09-26T08:00:00Z",
-        "url": "https://gdg.community.dev/e/m5czst/",
-        "type": "In person",
-        "tags": [
-          "DevFest",
-          "Tech Talk / Meetup"
-        ]
-      },
-      {
-        "title": "DevFest Roadshow #6 - AI in Action",
-        "start_date": "2026-09-26T07:30:00Z",
-        "end_date": "2026-09-26T11:30:00Z",
-        "url": "https://gdg.community.dev/e/mpht2s/",
-        "type": "In person",
-        "tags": [
-          "DevFest",
-          "Tech Talk / Meetup"
-        ]
-      },
       {
         "title": "DevFest Roadshow #8 - KUG Shipaton",
         "start_date": "2026-10-10T03:30:00Z",
@@ -921,18 +804,6 @@
     "name": "GDG Cloud Madurai",
     "url": "https://gdg.community.dev/gdg-cloud-madurai/",
     "events": [
-      {
-        "title": "code for communities",
-        "start_date": "2026-09-26T04:30:00Z",
-        "end_date": "2026-09-26T10:00:00Z",
-        "url": "https://gdg.community.dev/e/mj2b5r/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Build with AI",
-          "Google Cloud"
-        ]
-      },
       {
         "title": "Unlocking Google Gemini: Building Enterprise-Ready Agents",
         "start_date": "2026-10-03T04:30:03Z",

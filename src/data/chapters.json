@@ -90,8 +90,10 @@
         "url": "https://gdg.community.dev/e/mc7t5c/",
         "type": "In person",
         "tags": [
+          "AI",
           "Build with AI",
-          "DevFest"
+          "DevFest",
+          "Workshop / hands-on session"
         ]
       },
       {
@@ -169,21 +171,6 @@
     "name": "GDG Cloud Indore",
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
     "events": [
-      {
-        "title": "Hands-On Workshop @CDGI College (Exclusive for CDGI College Students)",
-        "start_date": "2026-09-28T05:30:00Z",
-        "end_date": "2026-09-28T07:30:00Z",
-        "url": "https://gdg.community.dev/e/mgxq4s/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Community Building",
-          "DevFest",
-          "Google Cloud",
-          "Networking",
-          "Workshop / hands-on session"
-        ]
-      },
       {
         "title": "Hands-On Workshop @Medicaps College (Exclusive for Medicaps College Students)",
         "start_date": "2026-10-05T06:00:00Z",
@@ -317,7 +304,6 @@
           "Career Development",
           "Community Building",
           "Conference",
-          "DevFest",
           "Networking",
           "Tech Talk / Meetup"
         ]
@@ -344,6 +330,8 @@
         "url": "https://gdg.community.dev/e/mjdyrg/",
         "type": "In person",
         "tags": [
+          "AI",
+          "Conference",
           "DevFest"
         ]
       }
@@ -419,7 +407,8 @@
         "type": "Virtual",
         "tags": [
           "DevFest",
-          "Hackathon"
+          "Hackathon",
+          "Workshop / hands-on session"
         ]
       },
       {
@@ -450,7 +439,21 @@
     "city": "Udaipur",
     "name": "GDG Udaipur",
     "url": "https://gdg.community.dev/gdg-udaipur/",
-    "events": []
+    "events": [
+      {
+        "title": "All About Gemma 4!",
+        "start_date": "2026-10-01T13:30:00Z",
+        "end_date": "2026-10-01T14:30:00Z",
+        "url": "https://gdg.community.dev/e/mn8ddv/",
+        "type": "Virtual",
+        "tags": [
+          "AI",
+          "AI - Gemma",
+          "Google Cloud",
+          "Tech Talk / Meetup"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -924,7 +927,6 @@
           "AI",
           "AI - Gemini",
           "Build with AI",
-          "DevFest",
           "Tech Talk / Meetup",
           "Workshop / hands-on session"
         ]

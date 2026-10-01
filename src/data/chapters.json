@@ -6,7 +6,7 @@
     "url": "https://gdg.community.dev/gdg-salem/",
     "events": [
       {
-        "title": "DevFest 2026",
+        "title": "DevFest Salem 2026",
         "start_date": "2026-10-31T02:30:00Z",
         "end_date": "2026-10-31T11:00:00Z",
         "url": "https://gdg.community.dev/e/mmt44t/",
@@ -392,7 +392,20 @@
     "city": "Pune",
     "name": "GDG Pune",
     "url": "https://gdg.community.dev/gdg-pune/",
-    "events": []
+    "events": [
+      {
+        "title": "Build with AI - Code for Communities - Pre DevFest Pune'26 Workshop Series 5.0 | Altimetrik India",
+        "start_date": "2026-10-10T03:30:00Z",
+        "end_date": "2026-10-10T08:30:00Z",
+        "url": "https://gdg.community.dev/e/mgtb6j/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Build with AI",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -799,8 +812,8 @@
       },
       {
         "title": "DevFest Nagpur 2026",
-        "start_date": "2026-11-14T04:30:00Z",
-        "end_date": "2026-11-14T12:30:00Z",
+        "start_date": "2026-12-05T04:30:00Z",
+        "end_date": "2026-12-05T12:30:00Z",
         "url": "https://gdg.community.dev/e/mrtq7c/",
         "type": "In person",
         "tags": [
@@ -867,7 +880,19 @@
     "city": "Chandigarh",
     "name": "GDG Cloud Chandigarh",
     "url": "https://gdg.community.dev/gdg-cloud-chandigarh/",
-    "events": []
+    "events": [
+      {
+        "title": "Code for Communities - Chandigarh",
+        "start_date": "2026-10-23T04:30:00Z",
+        "end_date": "2026-10-24T11:30:00Z",
+        "url": "https://gdg.community.dev/e/m49vfq/",
+        "type": "In person",
+        "tags": [
+          "DevFest",
+          "Hackathon"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -896,6 +921,18 @@
         "url": "https://gdg.community.dev/e/mjf63s/",
         "type": "In person",
         "tags": []
+      },
+      {
+        "title": "Drishti (దృష్టి · दृष्टि): Beyond Imagination",
+        "start_date": "2026-10-31T03:30:00Z",
+        "end_date": "2026-10-31T10:30:23Z",
+        "url": "https://gdg.community.dev/e/m8f59h/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Conference",
+          "DevFest"
+        ]
       }
     ]
   },
@@ -925,24 +962,7 @@
     "city": "Rajkot",
     "name": "GDG Cloud Rajkot",
     "url": "https://gdg.community.dev/gdg-cloud-rajkot/",
-    "events": [
-      {
-        "title": "TechArena 2026 - Workshop & Hackathon: GDG Cloud Rajkot x Christ College Rajkot",
-        "start_date": "2026-09-30T02:30:00Z",
-        "end_date": "2026-09-30T11:30:00Z",
-        "url": "https://gdg.community.dev/e/m4pqsk/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - AI Studio",
-          "AI - Gemini",
-          "Build with AI",
-          "Community Building",
-          "Hackathon",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",

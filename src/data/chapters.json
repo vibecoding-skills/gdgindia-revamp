@@ -204,6 +204,36 @@
           "Networking",
           "Workshop / hands-on session"
         ]
+      },
+      {
+        "title": "Hands-On Workshop @IIST College (Exclusive for IIST College Students)",
+        "start_date": "2026-10-07T08:30:00Z",
+        "end_date": "2026-10-07T10:00:00Z",
+        "url": "https://gdg.community.dev/e/mvan69/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Community Building",
+          "DevFest",
+          "Google Cloud",
+          "Networking",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
+        "title": "Hands-On Workshop @IITIndore College (Exclusive for IIT Indore College Students)",
+        "start_date": "2026-10-07T11:30:00Z",
+        "end_date": "2026-10-07T13:00:00Z",
+        "url": "https://gdg.community.dev/e/m9rg6g/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Community Building",
+          "DevFest",
+          "Google Cloud",
+          "Networking",
+          "Workshop / hands-on session"
+        ]
       }
     ]
   },
@@ -269,6 +299,28 @@
     "name": "GDG Kolkata",
     "url": "https://gdg.community.dev/gdg-kolkata/",
     "events": [
+      {
+        "title": "Pre Devfest Kolkata (Builder's Day) 2026",
+        "start_date": "2026-11-21T03:00:00Z",
+        "end_date": "2026-11-21T11:00:00Z",
+        "url": "https://gdg.community.dev/e/m2crzp/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "AI - Gemini Enterprise Agent Platform",
+          "Android",
+          "Community Building",
+          "Conference",
+          "DevFest",
+          "Firebase",
+          "Flutter",
+          "Google Cloud",
+          "Networking",
+          "Web",
+          "Workshop / hands-on session"
+        ]
+      },
       {
         "title": "Devfest Kolkata 2026",
         "start_date": "2026-11-22T02:00:00Z",
@@ -387,7 +439,7 @@
     "url": "https://gdg.community.dev/gdg-pune/",
     "events": [
       {
-        "title": "Build with AI - Code for Communities - Pre DevFest Pune'26 Workshop Series 5.0 | Altimetrik India",
+        "title": "Build with AI - Pre DevFest Pune'26 Workshop Series 5.0 | Altimetrik India",
         "start_date": "2026-10-10T03:30:00Z",
         "end_date": "2026-10-10T08:30:00Z",
         "url": "https://gdg.community.dev/e/mgtb6j/",
@@ -746,18 +798,7 @@
     "city": "Bhopal",
     "name": "GDG Cloud Bhopal",
     "url": "https://gdg.community.dev/gdg-cloud-bhopal/",
-    "events": [
-      {
-        "title": "Code for Communities 2.0 | Bhopal",
-        "start_date": "2026-10-03T05:30:00Z",
-        "end_date": "2026-10-03T11:30:00Z",
-        "url": "https://gdg.community.dev/e/mvfc5m/",
-        "type": "In person",
-        "tags": [
-          "Build with AI"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -825,16 +866,6 @@
     "url": "https://gdg.community.dev/gdg-cloud-nagpur/",
     "events": [
       {
-        "title": "HACKTOBERFEST X GDG Cloud Nagpur",
-        "start_date": "2026-10-03T04:30:00Z",
-        "end_date": "2026-10-03T08:30:00Z",
-        "url": "https://gdg.community.dev/e/m64c3k/",
-        "type": "In person",
-        "tags": [
-          "Workshop / hands-on session"
-        ]
-      },
-      {
         "title": "DevFest Nagpur 2026",
         "start_date": "2026-12-05T04:30:00Z",
         "end_date": "2026-12-05T12:30:00Z",
@@ -855,20 +886,7 @@
     "city": "Madurai",
     "name": "GDG Cloud Madurai",
     "url": "https://gdg.community.dev/gdg-cloud-madurai/",
-    "events": [
-      {
-        "title": "Unlocking Google Gemini: Building Enterprise-Ready Agents",
-        "start_date": "2026-10-03T04:30:03Z",
-        "end_date": "2026-10-03T07:00:00Z",
-        "url": "https://gdg.community.dev/e/mrj5wu/",
-        "type": "In person",
-        "tags": [
-          "AI - Gemini",
-          "Google Cloud",
-          "Tech Talk / Meetup"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",

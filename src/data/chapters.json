@@ -163,36 +163,6 @@
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
     "events": [
       {
-        "title": "Hands-On Workshop @Medicaps College (Exclusive for Medicaps College Students)",
-        "start_date": "2026-10-05T06:00:00Z",
-        "end_date": "2026-10-05T07:30:00Z",
-        "url": "https://gdg.community.dev/e/mpzzf7/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Community Building",
-          "DevFest",
-          "Google Cloud",
-          "Networking",
-          "Workshop / hands-on session"
-        ]
-      },
-      {
-        "title": "Hands-On Workshop @IIPS DAVV College (Exclusive for IIPS DAVV College Students)",
-        "start_date": "2026-10-05T09:30:00Z",
-        "end_date": "2026-10-05T11:00:00Z",
-        "url": "https://gdg.community.dev/e/m9ust9/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Community Building",
-          "DevFest",
-          "Google Cloud",
-          "Networking",
-          "Workshop / hands-on session"
-        ]
-      },
-      {
         "title": "Hands-On Workshop @IIST College (Exclusive for IIST College Students)",
         "start_date": "2026-10-07T08:30:00Z",
         "end_date": "2026-10-07T10:00:00Z",
@@ -201,7 +171,6 @@
         "tags": [
           "AI",
           "Community Building",
-          "DevFest",
           "Google Cloud",
           "Networking",
           "Workshop / hands-on session"
@@ -216,7 +185,6 @@
         "tags": [
           "AI",
           "Community Building",
-          "DevFest",
           "Google Cloud",
           "Networking",
           "Workshop / hands-on session"
@@ -257,7 +225,16 @@
     "city": "Bangalore",
     "name": "GDG Cloud Bengaluru",
     "url": "https://gdg.community.dev/gdg-cloud-bengaluru/",
-    "events": []
+    "events": [
+      {
+        "title": "Road to Devfest: Opensource Edition",
+        "start_date": "2026-10-24T04:00:00Z",
+        "end_date": "2026-10-24T10:00:00Z",
+        "url": "https://gdg.community.dev/e/m6dnwm/",
+        "type": "In person",
+        "tags": []
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -548,8 +525,12 @@
           "AI - Gemini",
           "AI - Gemini Enterprise Agent Platform",
           "AI - Gemma",
+          "Accessibility",
           "Android",
+          "Angular",
           "Build with AI",
+          "Career Development",
+          "Community Building",
           "Conference",
           "DevFest",
           "Firebase",
@@ -557,6 +538,7 @@
           "Google Cloud",
           "Hackathon",
           "Tech Talk / Meetup",
+          "UX / UI Design",
           "Web",
           "Workshop / hands-on session"
         ]
@@ -947,7 +929,6 @@
         "url": "https://gdg.community.dev/e/m49vfq/",
         "type": "In person",
         "tags": [
-          "DevFest",
           "Hackathon"
         ]
       },

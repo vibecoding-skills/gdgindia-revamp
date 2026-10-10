@@ -113,7 +113,7 @@
     "url": "https://gdg.community.dev/gdg-ranchi/",
     "events": [
       {
-        "title": "Research Xelerate Pre-Devfest 2026 : Jharkhand Edition",
+        "title": "Research Xcelerate Pre-Devfest 2026 : Jharkhand Edition",
         "start_date": "2026-10-24T03:30:00Z",
         "end_date": "2026-10-24T11:30:00Z",
         "url": "https://gdg.community.dev/e/mgqp7t/",
@@ -533,7 +533,7 @@
     "url": "https://gdg.community.dev/gdg-chennai/",
     "events": [
       {
-        "title": "DevFest on Campus Chennai",
+        "title": "DevFest Roadshow #8 - DevFest on Campus Chennai",
         "start_date": "2026-10-10T03:00:00Z",
         "end_date": "2026-10-10T11:30:00Z",
         "url": "https://gdg.community.dev/e/m8n9m8/",
@@ -545,11 +545,11 @@
         ]
       },
       {
-        "title": "DevFest Roadshow #8 - KUG Shipaton",
+        "title": "DevFest Roadshow #9 - KUG Shipaton",
         "start_date": "2026-10-10T03:30:00Z",
         "end_date": "2026-10-10T12:30:00Z",
         "url": "https://gdg.community.dev/e/mzxq5u/",
-        "type": "Virtual",
+        "type": "In person",
         "tags": [
           "DevFest",
           "Hackathon",
@@ -647,6 +647,23 @@
           "Build with AI",
           "Community Building",
           "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
+        "title": "AnyBody Can Code: Online Edition",
+        "start_date": "2026-10-11T09:30:00Z",
+        "end_date": "2026-10-11T11:00:00Z",
+        "url": "https://gdg.community.dev/e/mpebqm/",
+        "type": "Virtual",
+        "tags": [
+          "AI - AI Studio",
+          "AI - Gemini",
+          "Build with AI",
+          "Community Building",
+          "Tech Talk / Meetup",
+          "UX / UI Design",
+          "Web",
           "Workshop / hands-on session"
         ]
       },
@@ -892,7 +909,7 @@
         ]
       },
       {
-        "title": "Creators Conclave Bhopal",
+        "title": "Creators Conclave Bhopal | An Exclusive Gathering for Creators",
         "start_date": "2026-10-11T09:00:00Z",
         "end_date": "2026-10-11T12:00:00Z",
         "url": "https://gdg.community.dev/e/m5ku2d/",

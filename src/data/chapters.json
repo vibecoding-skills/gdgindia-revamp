@@ -8,7 +8,7 @@
       {
         "title": "DevFest Salem 2026",
         "start_date": "2026-10-31T02:30:00Z",
-        "end_date": "2026-10-31T11:00:00Z",
+        "end_date": "2026-10-31T12:00:00Z",
         "url": "https://gdg.community.dev/e/mmt44t/",
         "type": "In person",
         "tags": []
@@ -71,7 +71,18 @@
     "city": "Jodhpur",
     "name": "GDG Jodhpur",
     "url": "https://gdg.community.dev/gdg-jodhpur/",
-    "events": []
+    "events": [
+      {
+        "title": "Scaling Java Applications with Virtual Threads",
+        "start_date": "2026-10-18T11:30:00Z",
+        "end_date": "2026-10-18T12:30:00Z",
+        "url": "https://gdg.community.dev/e/my74vv/",
+        "type": "Virtual",
+        "tags": [
+          "Tech Talk / Meetup"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -210,7 +221,22 @@
     "city": "Indore",
     "name": "GDG Cloud Indore",
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
-    "events": []
+    "events": [
+      {
+        "title": "Hands-On Workshop @LNCT College (Exclusive for LNCTIndore College Students)",
+        "start_date": "2026-10-15T09:30:00Z",
+        "end_date": "2026-10-15T11:00:00Z",
+        "url": "https://gdg.community.dev/e/mjm4uz/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Community Building",
+          "Google Cloud",
+          "Networking",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -251,14 +277,57 @@
     "city": "Visakhapatnam",
     "name": "GDG Vizag",
     "url": "https://gdg.community.dev/gdg-vizag/",
-    "events": []
+    "events": [
+      {
+        "title": "Build With AI – ABC (Anybody Can Code)",
+        "start_date": "2026-10-14T04:00:00Z",
+        "end_date": "2026-10-14T11:30:00Z",
+        "url": "https://gdg.community.dev/e/m4qyxc/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - AI Studio",
+          "AI - Gemini",
+          "AI - Gemma",
+          "Build with AI",
+          "Career Development",
+          "Community Building",
+          "Firebase",
+          "Hackathon",
+          "Networking",
+          "Tech Talk / Meetup",
+          "Web",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
     "city": "Mumbai",
     "name": "GDG Cloud Mumbai",
     "url": "https://gdg.community.dev/gdg-cloud-mumbai/",
-    "events": []
+    "events": [
+      {
+        "title": "Cloud Community Days 2026 Mumbai",
+        "start_date": "2026-11-15T03:30:00Z",
+        "end_date": "2026-11-15T11:30:00Z",
+        "url": "https://gdg.community.dev/e/m6pdgn/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "AI - Gemini Enterprise Agent Platform",
+          "AI - Gemma",
+          "Build with AI",
+          "Career Development",
+          "Community Building",
+          "DevFest",
+          "Google Cloud",
+          "Networking"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -465,7 +534,7 @@
     "url": "https://gdg.community.dev/gdg-pune/",
     "events": [
       {
-        "title": "DevFest Pune 2026: Agentic AI, Tokenization & Quantum — Start, Build & Grow",
+        "title": "DevFest Pune 2026: Build, Secure, Scale — Agentic AI, Tokenization & Quantum",
         "start_date": "2026-12-13T03:30:00Z",
         "end_date": "2026-12-13T12:30:00Z",
         "url": "https://gdg.community.dev/e/m72bzx/",
@@ -888,6 +957,24 @@
         ]
       },
       {
+        "title": "Walk with AI — Build with Google Gemma",
+        "start_date": "2026-10-24T00:30:00Z",
+        "end_date": "2026-10-24T03:30:00Z",
+        "url": "https://gdg.community.dev/e/mj2hrd/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - AI Studio",
+          "AI - Gemini",
+          "AI - Gemini Enterprise Agent Platform",
+          "AI - Gemma",
+          "Android",
+          "Build with AI",
+          "Community Building",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
         "title": "DevFest Nagpur 2026",
         "start_date": "2026-12-05T04:30:00Z",
         "end_date": "2026-12-05T12:30:00Z",
@@ -1028,19 +1115,7 @@
     "city": "Vijayawada",
     "name": "GDG Vijayawada",
     "url": "https://gdg.community.dev/gdg-vijayawada/",
-    "events": [
-      {
-        "title": "Drishti (దృష్టి · दृष्टि): Beyond Imagination",
-        "start_date": "2026-10-31T03:30:00Z",
-        "end_date": "2026-10-31T10:30:23Z",
-        "url": "https://gdg.community.dev/e/m8f59h/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Conference"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",

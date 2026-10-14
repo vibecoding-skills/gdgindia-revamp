@@ -250,27 +250,7 @@
     "city": "Hyderabad",
     "name": "GDG Cloud Hyderabad",
     "url": "https://gdg.community.dev/gdg-cloud-hyderabad/",
-    "events": [
-      {
-        "title": "Build with Gemini: Hands-On AI Workshop",
-        "start_date": "2026-10-13T03:30:00Z",
-        "end_date": "2026-10-13T10:00:00Z",
-        "url": "https://gdg.community.dev/e/mgvscy/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "AI - Gemini Enterprise Agent Platform",
-          "Build with AI",
-          "Community Building",
-          "Conference",
-          "Google Cloud",
-          "Tech Talk / Meetup",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -1115,7 +1095,22 @@
     "city": "Vijayawada",
     "name": "GDG Vijayawada",
     "url": "https://gdg.community.dev/gdg-vijayawada/",
-    "events": []
+    "events": [
+      {
+        "title": "Drishti దృష్టి: Innovate with AI",
+        "start_date": "2026-10-30T03:35:17Z",
+        "end_date": "2026-10-30T11:35:17Z",
+        "url": "https://gdg.community.dev/e/m444sw/",
+        "type": "In person",
+        "tags": [
+          "AI - AI Studio",
+          "Career Development",
+          "Community Building",
+          "DevFest",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -1189,13 +1184,18 @@
     "url": "https://gdg.community.dev/gdg-ai-for-science-india/",
     "events": [
       {
-        "title": "Autopilot for Algorithms: Optimizing HPC Code and Mixed-Precision Performance with AlphaEvolve",
-        "start_date": "2026-10-13T16:00:00Z",
-        "end_date": "2026-10-13T17:00:00Z",
-        "url": "https://gdg.community.dev/e/mja4x4/",
-        "type": "Virtual",
+        "title": "DeepTech Track @ DevFest Chennai 2026",
+        "start_date": "2026-10-17T03:30:00Z",
+        "end_date": "2026-10-17T12:00:00Z",
+        "url": "https://gdg.community.dev/e/mvnye2/",
+        "type": "In person",
         "tags": [
-          "Google Cloud"
+          "AI",
+          "AR/VR",
+          "Conference",
+          "DevFest",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
         ]
       }
     ]

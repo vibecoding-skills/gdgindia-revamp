@@ -98,6 +98,16 @@
     "url": "https://gdg.community.dev/gdg-nashik/",
     "events": [
       {
+        "title": "Agentic AI Architecture: How Autonomous AI Systems Work",
+        "start_date": "2026-10-22T04:30:00Z",
+        "end_date": "2026-10-22T06:30:00Z",
+        "url": "https://gdg.community.dev/e/mp3a4n/",
+        "type": "In person",
+        "tags": [
+          "Tech Talk / Meetup"
+        ]
+      },
+      {
         "title": "DevFest Nashik 2026 - Where ideas ferment into innovation.",
         "start_date": "2026-10-25T03:30:00Z",
         "end_date": "2026-10-25T12:30:00Z",
@@ -222,20 +232,6 @@
     "name": "GDG Cloud Indore",
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
     "events": [
-      {
-        "title": "Hands-On Workshop @LNCT College (Exclusive for LNCTIndore College Students)",
-        "start_date": "2026-10-15T09:30:00Z",
-        "end_date": "2026-10-15T11:00:00Z",
-        "url": "https://gdg.community.dev/e/mjm4uz/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Community Building",
-          "Google Cloud",
-          "Networking",
-          "Workshop / hands-on session"
-        ]
-      },
       {
         "title": "Hands-On Workshop @Symbiosis College (Exclusive for Campus College Students)",
         "start_date": "2026-10-16T05:30:00Z",
@@ -909,6 +905,7 @@
           "Google Cloud",
           "Networking",
           "Tech Talk / Meetup",
+          "Web",
           "Workshop / hands-on session"
         ]
       }
@@ -1042,6 +1039,16 @@
     "name": "GDG Cloud Chandigarh",
     "url": "https://gdg.community.dev/gdg-cloud-chandigarh/",
     "events": [
+      {
+        "title": "Code for Communities Hackathon: Pre-Event AMA & Info Session",
+        "start_date": "2026-10-16T13:30:00Z",
+        "end_date": "2026-10-16T14:30:00Z",
+        "url": "https://gdg.community.dev/e/m9k32s/",
+        "type": "Virtual",
+        "tags": [
+          "Hackathon"
+        ]
+      },
       {
         "title": "Cloud Community Days Chandigarh 2026",
         "start_date": "2026-10-23T04:00:00Z",

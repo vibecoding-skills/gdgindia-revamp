@@ -231,22 +231,7 @@
     "city": "Indore",
     "name": "GDG Cloud Indore",
     "url": "https://gdg.community.dev/gdg-cloud-indore/",
-    "events": [
-      {
-        "title": "Hands-On Workshop @Symbiosis College (Exclusive for Campus College Students)",
-        "start_date": "2026-10-16T05:30:00Z",
-        "end_date": "2026-10-16T07:30:00Z",
-        "url": "https://gdg.community.dev/e/m5h7yf/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Community Building",
-          "Google Cloud",
-          "Networking",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -723,7 +708,21 @@
     "city": "Coimbatore",
     "name": "GDG Coimbatore",
     "url": "https://gdg.community.dev/gdg-coimbatore/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Coimbatore 2026",
+        "start_date": "2026-12-12T03:00:00Z",
+        "end_date": "2026-12-12T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mp95ms/",
+        "type": "In person",
+        "tags": [
+          "Conference",
+          "DevFest",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -731,18 +730,6 @@
     "name": "GDG New Delhi",
     "url": "https://gdg.community.dev/gdg-new-delhi/",
     "events": [
-      {
-        "title": "DevFest New Delhi 2026 - Builder Day",
-        "start_date": "2026-10-16T04:30:00Z",
-        "end_date": "2026-10-16T10:30:00Z",
-        "url": "https://gdg.community.dev/e/mvfaea/",
-        "type": "In person",
-        "tags": [
-          "AI - Gemini",
-          "DevFest",
-          "Hackathon"
-        ]
-      },
       {
         "title": "DevFest New Delhi 2026 - Storyteller Day",
         "start_date": "2026-10-17T04:30:14Z",
@@ -1040,16 +1027,6 @@
     "url": "https://gdg.community.dev/gdg-cloud-chandigarh/",
     "events": [
       {
-        "title": "Code for Communities Hackathon: Pre-Event AMA & Info Session",
-        "start_date": "2026-10-16T13:30:00Z",
-        "end_date": "2026-10-16T14:30:00Z",
-        "url": "https://gdg.community.dev/e/m9k32s/",
-        "type": "Virtual",
-        "tags": [
-          "Hackathon"
-        ]
-      },
-      {
         "title": "Cloud Community Days Chandigarh 2026",
         "start_date": "2026-10-23T04:00:00Z",
         "end_date": "2026-10-23T11:00:00Z",
@@ -1073,7 +1050,11 @@
         "end_date": "2026-10-24T11:00:00Z",
         "url": "https://gdg.community.dev/e/m6ksn4/",
         "type": "In person",
-        "tags": []
+        "tags": [
+          "AI",
+          "DevFest",
+          "Workshop / hands-on session"
+        ]
       }
     ]
   },

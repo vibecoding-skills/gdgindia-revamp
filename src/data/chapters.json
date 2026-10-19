@@ -71,18 +71,7 @@
     "city": "Jodhpur",
     "name": "GDG Jodhpur",
     "url": "https://gdg.community.dev/gdg-jodhpur/",
-    "events": [
-      {
-        "title": "Scaling Java Applications with Virtual Threads",
-        "start_date": "2026-10-18T11:30:00Z",
-        "end_date": "2026-10-18T12:30:00Z",
-        "url": "https://gdg.community.dev/e/my74vv/",
-        "type": "Virtual",
-        "tags": [
-          "Tech Talk / Meetup"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -716,20 +705,7 @@
     "city": "Delhi",
     "name": "GDG New Delhi",
     "url": "https://gdg.community.dev/gdg-new-delhi/",
-    "events": [
-      {
-        "title": "Devfest New Delhi 2026 Leadership Day",
-        "start_date": "2026-10-18T04:30:52Z",
-        "end_date": "2026-10-18T10:30:52Z",
-        "url": "https://gdg.community.dev/e/mceafx/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Conference",
-          "DevFest"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",

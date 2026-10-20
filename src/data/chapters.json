@@ -27,7 +27,23 @@
     "city": "Gwalior",
     "name": "GDG Gwalior",
     "url": "https://gdg.community.dev/gdg-gwalior/",
-    "events": []
+    "events": [
+      {
+        "title": "Build With AI Workshop :  Pre DevFest Gwalior 2026",
+        "start_date": "2026-11-15T05:00:00Z",
+        "end_date": "2026-11-15T08:30:00Z",
+        "url": "https://gdg.community.dev/e/mpaj7u/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Build with AI",
+          "Career Development",
+          "Community Building",
+          "DevFest",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -200,7 +216,8 @@
           "DevFest",
           "Flutter",
           "UX / UI Design",
-          "Web"
+          "Web",
+          "Workshop / hands-on session"
         ]
       }
     ]
@@ -306,7 +323,6 @@
           "AI - Gemini",
           "Build with AI",
           "Community Building",
-          "DevFest",
           "Google Cloud",
           "Tech Talk / Meetup",
           "Workshop / hands-on session"
@@ -809,7 +825,14 @@
         "url": "https://gdg.community.dev/e/m42z93/",
         "type": "In person",
         "tags": [
-          "DevFest"
+          "AI",
+          "AI - Gemini",
+          "Android",
+          "Conference",
+          "DevFest",
+          "Google Cloud",
+          "Web",
+          "Workshop / hands-on session"
         ]
       }
     ]
@@ -1071,7 +1094,27 @@
     "city": "Mangaluru",
     "name": "GDG Cloud Mangalore",
     "url": "https://gdg.community.dev/gdg-cloud-mangalore/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Mangaluru 2026",
+        "start_date": "2026-11-14T04:00:27Z",
+        "end_date": "2026-11-14T11:30:27Z",
+        "url": "https://gdg.community.dev/e/m67gwz/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - AI Studio",
+          "AI - Gemini Enterprise Agent Platform",
+          "Community Building",
+          "Conference",
+          "DevFest",
+          "Google Cloud",
+          "Hackathon",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",

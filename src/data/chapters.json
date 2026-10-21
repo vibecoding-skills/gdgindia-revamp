@@ -175,7 +175,22 @@
     "city": "Chandigarh",
     "name": "GDG Chandigarh",
     "url": "https://gdg.community.dev/gdg-chandigarh/",
-    "events": []
+    "events": [
+      {
+        "title": "Innosprint 2.0",
+        "start_date": "2026-10-24T03:30:00Z",
+        "end_date": "2026-10-24T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mw6xcm/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Build with AI",
+          "DevFest",
+          "Hackathon",
+          "Networking"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -753,7 +768,22 @@
     "city": "Lucknow",
     "name": "GDG Lucknow",
     "url": "https://gdg.community.dev/gdg-lucknow/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Lucknow 2026: Where Builders Meet",
+        "start_date": "2026-11-14T03:30:00Z",
+        "end_date": "2026-11-14T11:30:00Z",
+        "url": "https://gdg.community.dev/e/m8q4xv/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Conference",
+          "DevFest",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",

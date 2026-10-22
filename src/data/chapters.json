@@ -39,7 +39,6 @@
           "Build with AI",
           "Career Development",
           "Community Building",
-          "DevFest",
           "Workshop / hands-on session"
         ]
       }
@@ -161,7 +160,28 @@
     "city": "Mumbai",
     "name": "GDG MAD",
     "url": "https://gdg.community.dev/gdg-mad/",
-    "events": []
+    "events": [
+      {
+        "title": "[Pre-DevFest] A Day With the Kids",
+        "start_date": "2026-11-14T04:30:00Z",
+        "end_date": "2026-11-14T08:30:00Z",
+        "url": "https://gdg.community.dev/e/myr6mx/",
+        "type": "In person",
+        "tags": [
+          "Community Building"
+        ]
+      },
+      {
+        "title": "[Pre-DevFest] Tech Trivia Night",
+        "start_date": "2026-11-25T10:00:00Z",
+        "end_date": "2026-11-25T14:30:00Z",
+        "url": "https://gdg.community.dev/e/m4z6ps/",
+        "type": "In person",
+        "tags": [
+          "Community Building"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -185,7 +205,6 @@
         "tags": [
           "AI",
           "Build with AI",
-          "DevFest",
           "Hackathon",
           "Networking"
         ]
@@ -303,7 +322,14 @@
         "end_date": "2026-10-24T10:00:00Z",
         "url": "https://gdg.community.dev/e/m6dnwm/",
         "type": "In person",
-        "tags": []
+        "tags": [
+          "AI - Gemini",
+          "AI - Gemma",
+          "Community Building",
+          "Conference",
+          "DevFest",
+          "Workshop / hands-on session"
+        ]
       }
     ]
   },
@@ -751,7 +777,13 @@
         "url": "https://gdg.community.dev/e/m2w8sd/",
         "type": "In person",
         "tags": [
-          "DevFest"
+          "AI",
+          "AI - Gemini",
+          "Android",
+          "Conference",
+          "DevFest",
+          "Google Cloud",
+          "Workshop / hands-on session"
         ]
       }
     ]
@@ -950,6 +982,14 @@
           "Community Building",
           "Workshop / hands-on session"
         ]
+      },
+      {
+        "title": "GSoC 2027 Complete Guide",
+        "start_date": "2026-10-25T09:30:00Z",
+        "end_date": "2026-10-25T10:30:00Z",
+        "url": "https://gdg.community.dev/e/mbpuf2/",
+        "type": "Virtual",
+        "tags": []
       },
       {
         "title": "DevFest Nagpur 2026",
@@ -1169,7 +1209,6 @@
           "AI",
           "AI - Gemma",
           "Build with AI",
-          "DevFest",
           "Hackathon"
         ]
       }

@@ -71,11 +71,20 @@
         "url": "https://gdg.community.dev/e/mm64v2/",
         "type": "In person",
         "tags": [
+          "AI - Gemini",
           "Accessibility",
+          "Build with AI",
+          "Career Development",
           "Conference",
           "DevFest",
+          "Earth Engine",
+          "Firebase",
+          "Get Certified",
+          "Google Cloud",
           "Hackathon",
           "Tech Talk / Meetup",
+          "UX / UI Design",
+          "Web",
           "Workshop / hands-on session"
         ]
       }
@@ -178,7 +187,24 @@
     "city": "Surat",
     "name": "GDG Surat",
     "url": "https://gdg.community.dev/gdg-surat/",
-    "events": []
+    "events": [
+      {
+        "title": "GDG DevFest Surat 2026",
+        "start_date": "2026-12-13T03:30:00Z",
+        "end_date": "2026-12-13T12:30:00Z",
+        "url": "https://gdg.community.dev/e/mbdexg/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "Community Building",
+          "Conference",
+          "DevFest",
+          "Flutter",
+          "Google Cloud"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -741,7 +767,28 @@
     "city": "Bangalore",
     "name": "GDG Bangalore",
     "url": "https://gdg.community.dev/gdg-bangalore/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Bengaluru 2026",
+        "start_date": "2026-12-05T03:30:00Z",
+        "end_date": "2026-12-05T12:30:00Z",
+        "url": "https://gdg.community.dev/e/mm4cuk/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - AI Studio",
+          "AI - Gemini",
+          "Android",
+          "Community Building",
+          "DevFest",
+          "Flutter",
+          "Google Cloud",
+          "Networking",
+          "Web",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -1077,14 +1124,6 @@
     "url": "https://gdg.community.dev/gdg-cloud-chandigarh/",
     "events": [
       {
-        "title": "Cloud Community Days Chandigarh 2026",
-        "start_date": "2026-10-23T04:00:00Z",
-        "end_date": "2026-10-23T11:00:00Z",
-        "url": "https://gdg.community.dev/e/mwrhb5/",
-        "type": "In person",
-        "tags": []
-      },
-      {
         "title": "Code for Communities - Chandigarh",
         "start_date": "2026-10-23T04:30:00Z",
         "end_date": "2026-10-24T11:30:00Z",
@@ -1144,8 +1183,8 @@
     "events": [
       {
         "title": "Drishti దృష్టి: Innovate with AI",
-        "start_date": "2026-10-30T03:35:17Z",
-        "end_date": "2026-10-30T11:35:17Z",
+        "start_date": "2026-10-29T07:30:00Z",
+        "end_date": "2026-10-30T11:30:00Z",
         "url": "https://gdg.community.dev/e/m444sw/",
         "type": "In person",
         "tags": [

@@ -128,7 +128,25 @@
     "city": "Ahmedabad",
     "name": "GDG Cloud Ahmedabad",
     "url": "https://gdg.community.dev/gdg-cloud-ahmedabad/",
-    "events": []
+    "events": [
+      {
+        "title": "Cloud Community day Ahmedabad 2026",
+        "start_date": "2026-11-28T03:30:00Z",
+        "end_date": "2026-11-28T12:30:00Z",
+        "url": "https://gdg.community.dev/e/mw7ezq/",
+        "type": "In person",
+        "tags": [
+          "AI - AI Studio",
+          "AI - Gemini",
+          "AI - Gemma",
+          "Build with AI",
+          "Conference",
+          "Google Cloud",
+          "Networking",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -211,21 +229,7 @@
     "city": "Chandigarh",
     "name": "GDG Chandigarh",
     "url": "https://gdg.community.dev/gdg-chandigarh/",
-    "events": [
-      {
-        "title": "Innosprint 2.0",
-        "start_date": "2026-10-24T03:30:00Z",
-        "end_date": "2026-10-24T11:30:00Z",
-        "url": "https://gdg.community.dev/e/mw6xcm/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Build with AI",
-          "Hackathon",
-          "Networking"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -355,23 +359,7 @@
     "city": "Bangalore",
     "name": "GDG Cloud Bengaluru",
     "url": "https://gdg.community.dev/gdg-cloud-bengaluru/",
-    "events": [
-      {
-        "title": "Road to Devfest: Opensource Edition",
-        "start_date": "2026-10-24T04:00:00Z",
-        "end_date": "2026-10-24T10:00:00Z",
-        "url": "https://gdg.community.dev/e/m6dnwm/",
-        "type": "In person",
-        "tags": [
-          "AI - Gemini",
-          "AI - Gemma",
-          "Community Building",
-          "Conference",
-          "DevFest",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -392,24 +380,7 @@
     "city": "Pune",
     "name": "GDG Cloud Pune",
     "url": "https://gdg.community.dev/gdg-cloud-pune/",
-    "events": [
-      {
-        "title": "Build with Gemini: Pune",
-        "start_date": "2026-10-24T04:00:00Z",
-        "end_date": "2026-10-24T09:00:00Z",
-        "url": "https://gdg.community.dev/e/mcr5m7/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "Build with AI",
-          "Community Building",
-          "Google Cloud",
-          "Tech Talk / Meetup",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -611,24 +582,7 @@
     "city": "Hyderabad",
     "name": "GDG Hyderabad",
     "url": "https://gdg.community.dev/gdg-hyderabad/",
-    "events": [
-      {
-        "title": "DevFest Hyderabad 2026",
-        "start_date": "2026-10-24T03:00:00Z",
-        "end_date": "2026-10-24T13:00:00Z",
-        "url": "https://gdg.community.dev/e/mbrb6d/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Community Building",
-          "DevFest",
-          "Firebase",
-          "Google Cloud",
-          "Tech Talk / Meetup",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -742,25 +696,7 @@
     "city": "Ahmedabad",
     "name": "GDG Ahmedabad",
     "url": "https://gdg.community.dev/gdg-ahmedabad/",
-    "events": [
-      {
-        "title": "Garbathon 2026 by GDG Ahmedabad | Pre-DevFest | Build. Hack. Garba.",
-        "start_date": "2026-10-24T10:30:00Z",
-        "end_date": "2026-10-24T17:30:00Z",
-        "url": "https://gdg.community.dev/e/m6cs6z/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Android",
-          "Build with AI",
-          "Community Building",
-          "Hackathon",
-          "Networking",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -965,18 +901,7 @@
     "city": "Gurugram",
     "name": "GDG Gurugram",
     "url": "https://gdg.community.dev/gdg-gurugram/",
-    "events": [
-      {
-        "title": "Build with Ai: ABC (Anybody Can Code)",
-        "start_date": "2026-10-24T04:30:00Z",
-        "end_date": "2026-10-24T12:30:00Z",
-        "url": "https://gdg.community.dev/e/mm4a3y/",
-        "type": "In person",
-        "tags": [
-          "Hackathon"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -1027,24 +952,6 @@
     "url": "https://gdg.community.dev/gdg-cloud-nagpur/",
     "events": [
       {
-        "title": "Walk with AI — Build with Google Gemma",
-        "start_date": "2026-10-24T00:30:00Z",
-        "end_date": "2026-10-24T03:30:00Z",
-        "url": "https://gdg.community.dev/e/mj2hrd/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - AI Studio",
-          "AI - Gemini",
-          "AI - Gemini Enterprise Agent Platform",
-          "AI - Gemma",
-          "Android",
-          "Build with AI",
-          "Community Building",
-          "Workshop / hands-on session"
-        ]
-      },
-      {
         "title": "GSoC 2027 Complete Guide",
         "start_date": "2026-10-25T09:30:00Z",
         "end_date": "2026-10-25T10:30:00Z",
@@ -1073,21 +980,7 @@
     "city": "Madurai",
     "name": "GDG Cloud Madurai",
     "url": "https://gdg.community.dev/gdg-cloud-madurai/",
-    "events": [
-      {
-        "title": "Design Thinking in the AI Era",
-        "start_date": "2026-10-24T04:30:00Z",
-        "end_date": "2026-10-24T07:00:00Z",
-        "url": "https://gdg.community.dev/e/mrjx48/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "Build with AI",
-          "Tech Talk / Meetup"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -1122,30 +1015,7 @@
     "city": "Chandigarh",
     "name": "GDG Cloud Chandigarh",
     "url": "https://gdg.community.dev/gdg-cloud-chandigarh/",
-    "events": [
-      {
-        "title": "Code for Communities - Chandigarh",
-        "start_date": "2026-10-23T04:30:00Z",
-        "end_date": "2026-10-24T11:30:00Z",
-        "url": "https://gdg.community.dev/e/m49vfq/",
-        "type": "In person",
-        "tags": [
-          "Hackathon"
-        ]
-      },
-      {
-        "title": "DevFest Chandigarh 2026",
-        "start_date": "2026-10-24T04:00:00Z",
-        "end_date": "2026-10-24T11:00:00Z",
-        "url": "https://gdg.community.dev/e/m6ksn4/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "DevFest",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",

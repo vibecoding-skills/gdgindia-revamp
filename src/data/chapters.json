@@ -109,19 +109,7 @@
     "city": "Nashik",
     "name": "GDG Nashik",
     "url": "https://gdg.community.dev/gdg-nashik/",
-    "events": [
-      {
-        "title": "DevFest Nashik 2026 - Where ideas ferment into innovation.",
-        "start_date": "2026-10-25T03:30:00Z",
-        "end_date": "2026-10-25T12:30:00Z",
-        "url": "https://gdg.community.dev/e/mrzxev/",
-        "type": "In person",
-        "tags": [
-          "Conference",
-          "DevFest"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -250,31 +238,7 @@
     "city": "Hubballi",
     "name": "GDG Hubli",
     "url": "https://gdg.community.dev/gdg-hubli/",
-    "events": [
-      {
-        "title": "DevFest Hubballi 2026: Innovate, Build, and Connect",
-        "start_date": "2026-10-25T03:30:00Z",
-        "end_date": "2026-10-25T12:00:00Z",
-        "url": "https://gdg.community.dev/e/mbvgp3/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - AI Studio",
-          "AI - Gemini",
-          "AI - Gemini Enterprise Agent Platform",
-          "AI - Gemma",
-          "Android",
-          "Career Development",
-          "Community Building",
-          "Conference",
-          "DevFest",
-          "Flutter",
-          "UX / UI Design",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -766,24 +730,7 @@
     "city": "Vadodara",
     "name": "GDG Baroda",
     "url": "https://gdg.community.dev/gdg-baroda/",
-    "events": [
-      {
-        "title": "DevFest Baroda 2026",
-        "start_date": "2026-10-25T03:30:00Z",
-        "end_date": "2026-10-25T12:30:00Z",
-        "url": "https://gdg.community.dev/e/m2w8sd/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "Android",
-          "Conference",
-          "DevFest",
-          "Google Cloud",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -855,7 +802,19 @@
     "city": "Kanpur",
     "name": "GDG Kanpur",
     "url": "https://gdg.community.dev/gdg-kanpur/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Kanpur 2026",
+        "start_date": "2026-11-22T04:00:00Z",
+        "end_date": "2026-11-22T12:00:00Z",
+        "url": "https://gdg.community.dev/e/mykyx3/",
+        "type": "In person",
+        "tags": [
+          "DevFest",
+          "Tech Talk / Meetup"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -951,14 +910,6 @@
     "name": "GDG Cloud Nagpur",
     "url": "https://gdg.community.dev/gdg-cloud-nagpur/",
     "events": [
-      {
-        "title": "GSoC 2027 Complete Guide",
-        "start_date": "2026-10-25T09:30:00Z",
-        "end_date": "2026-10-25T10:30:00Z",
-        "url": "https://gdg.community.dev/e/mbpuf2/",
-        "type": "Virtual",
-        "tags": []
-      },
       {
         "title": "DevFest Nagpur 2026",
         "start_date": "2026-12-05T04:30:00Z",
@@ -1063,6 +1014,19 @@
           "Community Building",
           "Workshop / hands-on session"
         ]
+      },
+      {
+        "title": "Build with AI: Learn & Build AI Agents | DevFest 2026 – Drishti",
+        "start_date": "2026-10-29T08:30:00Z",
+        "end_date": "2026-10-30T11:30:00Z",
+        "url": "https://gdg.community.dev/e/m6vxj5/",
+        "type": "In person",
+        "tags": [
+          "AI - Gemini",
+          "DevFest",
+          "Hackathon",
+          "Workshop / hands-on session"
+        ]
       }
     ]
   },
@@ -1112,21 +1076,7 @@
     "city": "Rajkot",
     "name": "GDG Cloud Rajkot",
     "url": "https://gdg.community.dev/gdg-cloud-rajkot/",
-    "events": [
-      {
-        "title": "Hacktoberfest Hack Day Rajkot x GDG Cloud Rajkot",
-        "start_date": "2026-10-25T03:30:00Z",
-        "end_date": "2026-10-25T11:30:00Z",
-        "url": "https://gdg.community.dev/e/mgs44r/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemma",
-          "Build with AI",
-          "Hackathon"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",

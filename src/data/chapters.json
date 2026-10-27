@@ -102,7 +102,27 @@
     "city": "Siliguri",
     "name": "GDG Siliguri",
     "url": "https://gdg.community.dev/gdg-siliguri/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Siliguri 2026",
+        "start_date": "2026-11-14T02:30:00Z",
+        "end_date": "2026-11-14T12:30:00Z",
+        "url": "https://gdg.community.dev/e/m234b3/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "Android",
+          "Conference",
+          "DevFest",
+          "Firebase",
+          "Google Cloud",
+          "Tech Talk / Meetup",
+          "UX / UI Design",
+          "Web"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -460,7 +480,19 @@
     "city": "Rajkot",
     "name": "GDG Rajkot",
     "url": "https://gdg.community.dev/gdg-rajkot/",
-    "events": []
+    "events": [
+      {
+        "title": "Build with AI: Anybody Can Code - Pre-Devfest Rajkot 2026",
+        "start_date": "2026-11-01T03:30:00Z",
+        "end_date": "2026-11-01T07:30:00Z",
+        "url": "https://gdg.community.dev/e/m9afam/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Build with AI"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -536,7 +568,8 @@
           "Google Play",
           "Google Workspace",
           "Networking",
-          "Web"
+          "Web",
+          "Workshop / hands-on session"
         ]
       }
     ]
@@ -710,6 +743,7 @@
         "url": "https://gdg.community.dev/e/mp95ms/",
         "type": "In person",
         "tags": [
+          "AI - Gemini",
           "Conference",
           "DevFest",
           "Tech Talk / Meetup",
@@ -810,8 +844,14 @@
         "url": "https://gdg.community.dev/e/mykyx3/",
         "type": "In person",
         "tags": [
+          "AI - Gemini",
+          "AI - Gemini Enterprise Agent Platform",
           "DevFest",
-          "Tech Talk / Meetup"
+          "Firebase",
+          "Flutter",
+          "Tech Talk / Meetup",
+          "Web",
+          "Workshop / hands-on session"
         ]
       }
     ]
@@ -895,7 +935,20 @@
     "city": "Guwahati",
     "name": "GDG Guwahati",
     "url": "https://gdg.community.dev/gdg-guwahati/",
-    "events": []
+    "events": [
+      {
+        "title": "Empower Your Business: Build a Website in 30 mins for Women Entrepeneurs",
+        "start_date": "2026-10-30T14:30:00Z",
+        "end_date": "2026-10-30T15:30:00Z",
+        "url": "https://gdg.community.dev/e/mj6xum/",
+        "type": "Virtual",
+        "tags": [
+          "Conference",
+          "Web",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -982,9 +1035,11 @@
         "type": "In person",
         "tags": [
           "AI",
+          "AI - Gemini",
           "DevFest",
           "Google Cloud",
-          "Networking"
+          "Networking",
+          "Workshop / hands-on session"
         ]
       }
     ]
@@ -1023,7 +1078,6 @@
         "type": "In person",
         "tags": [
           "AI - Gemini",
-          "DevFest",
           "Hackathon",
           "Workshop / hands-on session"
         ]

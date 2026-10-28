@@ -343,7 +343,16 @@
     "city": "Bangalore",
     "name": "GDG Cloud Bengaluru",
     "url": "https://gdg.community.dev/gdg-cloud-bengaluru/",
-    "events": []
+    "events": [
+      {
+        "title": "Devfest 2026",
+        "start_date": "2026-11-21T03:00:00Z",
+        "end_date": "2026-11-21T12:30:00Z",
+        "url": "https://gdg.community.dev/e/mr24qd/",
+        "type": "In person",
+        "tags": []
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -440,8 +449,8 @@
     "events": [
       {
         "title": "Founders RoundTable — Where Founders Talk, Learn & Connect",
-        "start_date": "2026-10-31T06:00:00Z",
-        "end_date": "2026-10-31T09:30:00Z",
+        "start_date": "2026-10-31T08:00:00Z",
+        "end_date": "2026-10-31T11:30:00Z",
         "url": "https://gdg.community.dev/e/mrq96b/",
         "type": "In person",
         "tags": [
@@ -969,13 +978,7 @@
         "end_date": "2026-12-05T12:30:00Z",
         "url": "https://gdg.community.dev/e/mrtq7c/",
         "type": "In person",
-        "tags": [
-          "AI",
-          "Conference",
-          "DevFest",
-          "Tech Talk / Meetup",
-          "Workshop / hands-on session"
-        ]
+        "tags": []
       }
     ]
   },

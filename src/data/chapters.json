@@ -1044,18 +1044,7 @@
     "city": "Belagavi",
     "name": "GDG Belgaum",
     "url": "https://gdg.community.dev/gdg-belgaum/",
-    "events": [
-      {
-        "title": "Google Developer Group DevFest 2026 – Belagavi",
-        "start_date": "2026-11-26T03:30:00Z",
-        "end_date": "2026-11-26T12:30:00Z",
-        "url": "https://gdg.community.dev/e/mvu849/",
-        "type": "Virtual",
-        "tags": [
-          "DevFest"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",

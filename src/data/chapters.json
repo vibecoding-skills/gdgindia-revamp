@@ -136,25 +136,7 @@
     "city": "Ahmedabad",
     "name": "GDG Cloud Ahmedabad",
     "url": "https://gdg.community.dev/gdg-cloud-ahmedabad/",
-    "events": [
-      {
-        "title": "Cloud Community day Ahmedabad 2026",
-        "start_date": "2026-11-28T03:30:00Z",
-        "end_date": "2026-11-28T12:30:00Z",
-        "url": "https://gdg.community.dev/e/mw7ezq/",
-        "type": "In person",
-        "tags": [
-          "AI - AI Studio",
-          "AI - Gemini",
-          "AI - Gemma",
-          "Build with AI",
-          "Conference",
-          "Google Cloud",
-          "Networking",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -961,20 +943,7 @@
     "city": "Guwahati",
     "name": "GDG Guwahati",
     "url": "https://gdg.community.dev/gdg-guwahati/",
-    "events": [
-      {
-        "title": "Empower Your Business: Build a Website in 30 mins for Women Entrepeneurs",
-        "start_date": "2026-10-30T14:30:00Z",
-        "end_date": "2026-10-30T15:30:00Z",
-        "url": "https://gdg.community.dev/e/mj6xum/",
-        "type": "Virtual",
-        "tags": [
-          "Conference",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -1088,40 +1057,23 @@
     "city": "Prayagraj",
     "name": "GDG Prayagraj",
     "url": "https://gdg.community.dev/gdg-prayagraj/",
-    "events": []
+    "events": [
+      {
+        "title": "Open source Day with Gemma & On Device",
+        "start_date": "2026-10-31T03:30:00Z",
+        "end_date": "2026-10-31T06:59:46Z",
+        "url": "https://gdg.community.dev/e/mn9bgz/",
+        "type": "In person",
+        "tags": []
+      }
+    ]
   },
   {
     "type": "GDG",
     "city": "Vijayawada",
     "name": "GDG Vijayawada",
     "url": "https://gdg.community.dev/gdg-vijayawada/",
-    "events": [
-      {
-        "title": "Drishti దృష్టి: Innovate with AI",
-        "start_date": "2026-10-29T07:30:00Z",
-        "end_date": "2026-10-30T11:30:00Z",
-        "url": "https://gdg.community.dev/e/m444sw/",
-        "type": "In person",
-        "tags": [
-          "AI - AI Studio",
-          "Career Development",
-          "Community Building",
-          "Workshop / hands-on session"
-        ]
-      },
-      {
-        "title": "Build with AI: Learn & Build AI Agents | DevFest 2026 – Drishti",
-        "start_date": "2026-10-29T08:30:00Z",
-        "end_date": "2026-10-30T11:30:00Z",
-        "url": "https://gdg.community.dev/e/m6vxj5/",
-        "type": "In person",
-        "tags": [
-          "AI - Gemini",
-          "Hackathon",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",

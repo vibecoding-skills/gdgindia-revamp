@@ -153,6 +153,16 @@
         ]
       },
       {
+        "title": "[Pre-DevFest] The \"Touch Grass\" Buildathon",
+        "start_date": "2026-11-21T03:30:00Z",
+        "end_date": "2026-11-21T06:30:00Z",
+        "url": "https://gdg.community.dev/e/mp6ukt/",
+        "type": "In person",
+        "tags": [
+          "Hackathon"
+        ]
+      },
+      {
         "title": "[Pre-DevFest] Tech Trivia Night",
         "start_date": "2026-11-25T10:00:00Z",
         "end_date": "2026-11-25T14:30:00Z",
@@ -160,6 +170,16 @@
         "type": "In person",
         "tags": [
           "Community Building"
+        ]
+      },
+      {
+        "title": "[Pre-DevFest] Startup Founders' Mixer",
+        "start_date": "2026-11-28T11:30:00Z",
+        "end_date": "2026-11-28T14:30:00Z",
+        "url": "https://gdg.community.dev/e/m9hsy3/",
+        "type": "In person",
+        "tags": [
+          "Networking"
         ]
       }
     ]
@@ -425,19 +445,7 @@
     "city": "Rajkot",
     "name": "GDG Rajkot",
     "url": "https://gdg.community.dev/gdg-rajkot/",
-    "events": [
-      {
-        "title": "Build with AI: Anybody Can Code - Pre-Devfest Rajkot 2026",
-        "start_date": "2026-11-01T03:30:00Z",
-        "end_date": "2026-11-01T07:30:00Z",
-        "url": "https://gdg.community.dev/e/m9afam/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Build with AI"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -451,24 +459,7 @@
     "city": "Gandhinagar",
     "name": "GDG Gandhinagar",
     "url": "https://gdg.community.dev/gdg-gandhinagar/",
-    "events": [
-      {
-        "title": "DevFest Gandhinagar 2026",
-        "start_date": "2026-11-01T02:30:00Z",
-        "end_date": "2026-11-01T12:30:00Z",
-        "url": "https://gdg.community.dev/e/mnr36y/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "AI - Gemma",
-          "Conference",
-          "DevFest",
-          "Google Cloud",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -549,38 +540,7 @@
     "city": "Udaipur",
     "name": "GDG Udaipur",
     "url": "https://gdg.community.dev/gdg-udaipur/",
-    "events": [
-      {
-        "title": "Aravalli Build Championship: Road To DevFest Udaipur",
-        "start_date": "2026-10-31T02:30:00Z",
-        "end_date": "2026-11-01T15:00:00Z",
-        "url": "https://gdg.community.dev/e/m689gc/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - AI Studio",
-          "AI - Gemini",
-          "AI - Gemini Enterprise Agent Platform",
-          "AI - Gemma",
-          "Accessibility",
-          "Android",
-          "Angular",
-          "Build with AI",
-          "Career Development",
-          "Community Building",
-          "Conference",
-          "DevFest",
-          "Firebase",
-          "Flutter",
-          "Google Cloud",
-          "Hackathon",
-          "Tech Talk / Meetup",
-          "UX / UI Design",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -594,7 +554,16 @@
     "city": "Kochi",
     "name": "GDG Cochin",
     "url": "https://gdg.community.dev/gdg-cochin/",
-    "events": []
+    "events": [
+      {
+        "title": "Gemini Fusion",
+        "start_date": "2026-11-08T04:00:00Z",
+        "end_date": "2026-11-08T07:30:00Z",
+        "url": "https://gdg.community.dev/e/mz92mu/",
+        "type": "In person",
+        "tags": []
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -722,22 +691,7 @@
     "city": "Raipur",
     "name": "GDG Raipur",
     "url": "https://gdg.community.dev/gdg-raipur/",
-    "events": [
-      {
-        "title": "DevFest Raipur 2026",
-        "start_date": "2026-11-01T03:30:00Z",
-        "end_date": "2026-11-01T12:30:00Z",
-        "url": "https://gdg.community.dev/e/mmp5ka/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Conference",
-          "DevFest",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -941,23 +895,7 @@
     "city": "Motihari",
     "name": "GDG Cloud Motihari",
     "url": "https://gdg.community.dev/gdg-cloud-motihari/",
-    "events": [
-      {
-        "title": "DevFest Motihari, Bihar 2026",
-        "start_date": "2026-11-01T04:30:00Z",
-        "end_date": "2026-11-01T10:30:00Z",
-        "url": "https://gdg.community.dev/e/m2gexp/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "DevFest",
-          "Google Cloud",
-          "Networking",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",

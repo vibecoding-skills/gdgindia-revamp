@@ -127,7 +127,23 @@
     "city": "Ahmedabad",
     "name": "GDG Cloud Ahmedabad",
     "url": "https://gdg.community.dev/gdg-cloud-ahmedabad/",
-    "events": []
+    "events": [
+      {
+        "title": "Google Cloud Community day Ahmedabad 2026",
+        "start_date": "2026-11-28T03:00:00Z",
+        "end_date": "2026-11-28T12:30:00Z",
+        "url": "https://gdg.community.dev/e/mgqrbs/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - AI Studio",
+          "AI - Gemini",
+          "AI - Gemma",
+          "Build with AI",
+          "Conference"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -363,8 +379,8 @@
     "events": [
       {
         "title": "Pre Devfest Kolkata (Builder's Day) 2026",
-        "start_date": "2026-11-21T03:00:00Z",
-        "end_date": "2026-11-21T11:00:00Z",
+        "start_date": "2026-11-21T04:30:00Z",
+        "end_date": "2026-11-21T10:30:00Z",
         "url": "https://gdg.community.dev/e/m2crzp/",
         "type": "In person",
         "tags": [
@@ -412,7 +428,59 @@
     "city": "Madurai",
     "name": "GDG Madurai",
     "url": "https://gdg.community.dev/gdg-madurai/",
-    "events": []
+    "events": [
+      {
+        "title": "Multi-AI with OpenRouter | Tech Talk",
+        "start_date": "2026-11-14T04:30:00Z",
+        "end_date": "2026-11-14T07:00:00Z",
+        "url": "https://gdg.community.dev/e/mrasjq/",
+        "type": "In person",
+        "tags": [
+          "DevFest",
+          "Tech Talk / Meetup"
+        ]
+      },
+      {
+        "title": "Anybody Can Code – Build with AI",
+        "start_date": "2026-11-21T04:30:00Z",
+        "end_date": "2026-11-21T10:00:00Z",
+        "url": "https://gdg.community.dev/e/mp2r56/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - AI Studio",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
+        "title": "AI INNOVATION & DESIGN SUMMIT 2026",
+        "start_date": "2026-11-28T04:30:00Z",
+        "end_date": "2026-11-28T08:00:00Z",
+        "url": "https://gdg.community.dev/e/m9dnn4/",
+        "type": "In person",
+        "tags": []
+      },
+      {
+        "title": "Road to Google GDE – Your Journey Starts Here!",
+        "start_date": "2026-12-05T04:30:00Z",
+        "end_date": "2026-12-05T07:00:00Z",
+        "url": "https://gdg.community.dev/e/mgyht2/",
+        "type": "In person",
+        "tags": [
+          "Conference",
+          "Tech Talk / Meetup"
+        ]
+      },
+      {
+        "title": "DEVFEST 2026",
+        "start_date": "2026-12-12T04:30:00Z",
+        "end_date": "2026-12-12T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mvuuvm/",
+        "type": "In person",
+        "tags": []
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -595,6 +663,17 @@
     "name": "GDG Bangalore",
     "url": "https://gdg.community.dev/gdg-bangalore/",
     "events": [
+      {
+        "title": "Flutter Meetup",
+        "start_date": "2026-11-19T13:00:00Z",
+        "end_date": "2026-11-19T16:00:00Z",
+        "url": "https://gdg.community.dev/e/m5qasy/",
+        "type": "In person",
+        "tags": [
+          "Flutter",
+          "Networking"
+        ]
+      },
       {
         "title": "DevFest Bengaluru 2026",
         "start_date": "2026-12-05T03:30:00Z",
@@ -821,7 +900,18 @@
     "city": "Dehradun",
     "name": "GDG Dehradun",
     "url": "https://gdg.community.dev/gdg-dehradun/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Dehradun 2026",
+        "start_date": "2026-11-28T05:30:00Z",
+        "end_date": "2026-11-28T12:30:00Z",
+        "url": "https://gdg.community.dev/e/m88ngy/",
+        "type": "In person",
+        "tags": [
+          "DevFest"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -850,7 +940,22 @@
     "city": "Madurai",
     "name": "GDG Cloud Madurai",
     "url": "https://gdg.community.dev/gdg-cloud-madurai/",
-    "events": []
+    "events": [
+      {
+        "title": "Anybody Can Code",
+        "start_date": "2026-11-21T04:30:00Z",
+        "end_date": "2026-11-21T07:30:00Z",
+        "url": "https://gdg.community.dev/e/m6nswx/",
+        "type": "In person",
+        "tags": [
+          "AI - Gemini",
+          "AI - Gemma",
+          "Build with AI",
+          "DevFest",
+          "Google Cloud"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -980,7 +1085,34 @@
     "city": "Rajkot",
     "name": "GDG Cloud Rajkot",
     "url": "https://gdg.community.dev/gdg-cloud-rajkot/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Rajkot 2026 - GDG Cloud Rajkot & GDG Rajkot",
+        "start_date": "2026-11-22T03:30:00Z",
+        "end_date": "2026-11-22T12:00:00Z",
+        "url": "https://gdg.community.dev/e/mmtnfs/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - AI Studio",
+          "AI - Gemini",
+          "AI - Gemini Enterprise Agent Platform",
+          "AI - Gemma",
+          "Android",
+          "Build with AI",
+          "Community Building",
+          "DevFest",
+          "Firebase",
+          "Flutter",
+          "Google Cloud",
+          "Networking",
+          "Tech Talk / Meetup",
+          "UX / UI Design",
+          "Web",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",

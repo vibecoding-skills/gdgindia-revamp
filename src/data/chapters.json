@@ -20,20 +20,6 @@
     "url": "https://gdg.community.dev/gdg-gwalior/",
     "events": [
       {
-        "title": "GDG Gwalior DevConnect",
-        "start_date": "2026-11-05T05:30:00Z",
-        "end_date": "2026-11-05T07:30:00Z",
-        "url": "https://gdg.community.dev/e/m4jnh9/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "Career Development",
-          "Community Building",
-          "Networking",
-          "Tech Talk / Meetup"
-        ]
-      },
-      {
         "title": "Build With AI Workshop :  Pre DevFest Gwalior 2026",
         "start_date": "2026-11-15T05:00:00Z",
         "end_date": "2026-11-15T08:30:00Z",
@@ -41,6 +27,7 @@
         "type": "In person",
         "tags": [
           "AI",
+          "AI - Gemini",
           "Build with AI",
           "Career Development",
           "Community Building",
@@ -81,7 +68,6 @@
           "AI - Gemma",
           "Career Development",
           "Conference",
-          "DevFest",
           "Tech Talk / Meetup"
         ]
       },
@@ -94,7 +80,6 @@
         "tags": [
           "AI - Gemini",
           "Accessibility",
-          "Build with AI",
           "Career Development",
           "Conference",
           "DevFest",
@@ -194,7 +179,9 @@
         "end_date": "2026-11-14T08:30:00Z",
         "url": "https://gdg.community.dev/e/myr6mx/",
         "type": "In person",
-        "tags": []
+        "tags": [
+          "Community Building"
+        ]
       },
       {
         "title": "[Pre-DevFest] The \"Touch Grass\" Buildathon",
@@ -233,7 +220,8 @@
         "url": "https://gdg.community.dev/e/mcykrh/",
         "type": "In person",
         "tags": [
-          "DevFest"
+          "DevFest",
+          "Workshop / hands-on session"
         ]
       }
     ]
@@ -316,25 +304,7 @@
     "city": "Visakhapatnam",
     "name": "GDG Vizag",
     "url": "https://gdg.community.dev/gdg-vizag/",
-    "events": [
-      {
-        "title": "Local2Global Hack : GDGVIZAG",
-        "start_date": "2026-11-05T03:30:00Z",
-        "end_date": "2026-11-06T03:30:00Z",
-        "url": "https://gdg.community.dev/e/m8v9pk/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "Career Development",
-          "Community Building",
-          "Hackathon",
-          "Networking",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -458,24 +428,12 @@
     "url": "https://gdg.community.dev/gdg-madurai/",
     "events": [
       {
-        "title": "Beyond the Laptop: Discover Google Cloud & Take Your First Application Live",
-        "start_date": "2026-11-05T13:30:00Z",
-        "end_date": "2026-11-05T14:30:00Z",
-        "url": "https://gdg.community.dev/e/mbhu2h/",
-        "type": "Virtual",
-        "tags": [
-          "Tech Talk / Meetup",
-          "Workshop / hands-on session"
-        ]
-      },
-      {
         "title": "Multi-AI with OpenRouter | Tech Talk",
         "start_date": "2026-11-14T04:30:00Z",
         "end_date": "2026-11-14T07:00:00Z",
         "url": "https://gdg.community.dev/e/mrasjq/",
         "type": "In person",
         "tags": [
-          "DevFest",
           "Tech Talk / Meetup"
         ]
       },
@@ -543,7 +501,6 @@
         "tags": [
           "AI",
           "AI - Gemini",
-          "Build with AI",
           "Community Building",
           "Conference",
           "DevFest",
@@ -740,7 +697,22 @@
     "city": "Bhubaneswar",
     "name": "GDG Bhubaneswar",
     "url": "https://gdg.community.dev/gdg-bhubaneswar/",
-    "events": []
+    "events": [
+      {
+        "title": "GDG DevFest 2026 Bhubaneswar",
+        "start_date": "2026-11-28T11:30:00Z",
+        "end_date": "2026-11-29T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mnkqzg/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "DevFest",
+          "Hackathon",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -990,8 +962,8 @@
           "AI - Gemini",
           "AI - Gemma",
           "Build with AI",
-          "DevFest",
-          "Google Cloud"
+          "Google Cloud",
+          "Workshop / hands-on session"
         ]
       }
     ]
@@ -1138,7 +1110,6 @@
           "AI - Gemini Enterprise Agent Platform",
           "AI - Gemma",
           "Android",
-          "Build with AI",
           "Community Building",
           "DevFest",
           "Firebase",

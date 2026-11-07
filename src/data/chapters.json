@@ -360,14 +360,42 @@
     "city": "Delhi",
     "name": "GDG Cloud New Delhi",
     "url": "https://gdg.community.dev/gdg-cloud-new-delhi/",
-    "events": []
+    "events": [
+      {
+        "title": "MeghManthan",
+        "start_date": "2026-12-05T03:30:00Z",
+        "end_date": "2026-12-05T10:00:00Z",
+        "url": "https://gdg.community.dev/e/myburp/",
+        "type": "In person",
+        "tags": []
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
     "city": "Pune",
     "name": "GDG Cloud Pune",
     "url": "https://gdg.community.dev/gdg-cloud-pune/",
-    "events": []
+    "events": [
+      {
+        "title": "Cloud Community Day Pune 2026",
+        "start_date": "2026-12-06T03:30:04Z",
+        "end_date": "2026-12-06T12:30:00Z",
+        "url": "https://gdg.community.dev/e/mj5qsj/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "Build with AI",
+          "Community Building",
+          "Conference",
+          "DevFest",
+          "Google Cloud",
+          "Web",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",

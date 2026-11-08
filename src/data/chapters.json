@@ -404,6 +404,28 @@
     "url": "https://gdg.community.dev/gdg-kolkata/",
     "events": [
       {
+        "title": "Ganga Manthan : Pre Devfest Kolkata (Any Body can Code) 2026",
+        "start_date": "2026-11-14T09:00:00Z",
+        "end_date": "2026-11-14T13:00:00Z",
+        "url": "https://gdg.community.dev/e/mbzube/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "AI - Gemini Enterprise Agent Platform",
+          "Android",
+          "Community Building",
+          "Conference",
+          "DevFest",
+          "Firebase",
+          "Flutter",
+          "Google Cloud",
+          "Networking",
+          "Web",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
         "title": "Pre Devfest Kolkata (Builder's Day) 2026",
         "start_date": "2026-11-21T04:30:00Z",
         "end_date": "2026-11-21T10:30:00Z",
@@ -547,7 +569,16 @@
     "city": "Rajkot",
     "name": "GDG Rajkot",
     "url": "https://gdg.community.dev/gdg-rajkot/",
-    "events": []
+    "events": [
+      {
+        "title": "DevFest Rajkot by GDG Rajkot and GDG Cloud Rajkot",
+        "start_date": "2026-11-22T03:30:00Z",
+        "end_date": "2026-11-22T12:30:00Z",
+        "url": "https://gdg.community.dev/e/m4nnxh/",
+        "type": "In person",
+        "tags": []
+      }
+    ]
   },
   {
     "type": "GDG",

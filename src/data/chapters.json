@@ -220,6 +220,7 @@
         "url": "https://gdg.community.dev/e/mcykrh/",
         "type": "In person",
         "tags": [
+          "AI - Gemini",
           "DevFest",
           "Workshop / hands-on session"
         ]
@@ -386,10 +387,8 @@
         "tags": [
           "AI",
           "AI - Gemini",
-          "Build with AI",
           "Community Building",
           "Conference",
-          "DevFest",
           "Google Cloud",
           "Web",
           "Workshop / hands-on session"
@@ -947,7 +946,10 @@
         "url": "https://gdg.community.dev/e/m88ngy/",
         "type": "In person",
         "tags": [
-          "DevFest"
+          "AI - Gemini",
+          "Conference",
+          "DevFest",
+          "Workshop / hands-on session"
         ]
       }
     ]
@@ -1003,7 +1005,7 @@
     "url": "https://gdg.community.dev/gdg-cloud-trivandrum/",
     "events": [
       {
-        "title": "Cloud Community Days × DevFest 2026",
+        "title": "DevFest x Cloud Community Days 2026",
         "start_date": "2026-11-28T03:30:00Z",
         "end_date": "2026-11-28T11:30:00Z",
         "url": "https://gdg.community.dev/e/m5bpu8/",
@@ -1083,7 +1085,21 @@
     "city": "Noida",
     "name": "GDG Cloud Noida",
     "url": "https://gdg.community.dev/gdg-cloud-noida/",
-    "events": []
+    "events": [
+      {
+        "title": "🕷️ DEV-VERSE",
+        "start_date": "2026-11-15T03:30:00Z",
+        "end_date": "2026-11-15T11:30:00Z",
+        "url": "https://gdg.community.dev/e/m6meeq/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "Build with AI",
+          "DevFest"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",

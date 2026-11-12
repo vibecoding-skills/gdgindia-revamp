@@ -465,6 +465,17 @@
         ]
       },
       {
+        "title": "Big AI, Small Machines: 5 Ways to Shrink an LLM",
+        "start_date": "2026-11-14T13:30:00Z",
+        "end_date": "2026-11-14T14:30:00Z",
+        "url": "https://gdg.community.dev/e/m8nz2p/",
+        "type": "Virtual",
+        "tags": [
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
         "title": "Anybody Can Code – Build with AI",
         "start_date": "2026-11-21T04:30:00Z",
         "end_date": "2026-11-21T10:00:00Z",
@@ -577,6 +588,22 @@
     "name": "GDG Pune",
     "url": "https://gdg.community.dev/gdg-pune/",
     "events": [
+      {
+        "title": "Build with AI (Gemini) - Pre DevFest Pune'26 Workshop Series 6.0 | Hewlett Packard Enterprise (HPE)",
+        "start_date": "2026-11-28T03:30:00Z",
+        "end_date": "2026-11-28T08:30:00Z",
+        "url": "https://gdg.community.dev/e/mpsybr/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - AI Studio",
+          "AI - Gemini",
+          "Build with AI",
+          "Community Building",
+          "DevFest",
+          "Workshop / hands-on session"
+        ]
+      },
       {
         "title": "DevFest Pune 2026: Build, Secure, Scale — Agentic AI, Tokenization & Quantum",
         "start_date": "2026-12-13T03:30:00Z",

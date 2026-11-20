@@ -403,12 +403,24 @@
       {
         "title": "Anybody Can Code – Build with AI",
         "start_date": "2026-11-21T04:30:00Z",
-        "end_date": "2026-11-21T10:00:00Z",
+        "end_date": "2026-11-21T08:00:00Z",
         "url": "https://gdg.community.dev/e/mp2r56/",
         "type": "In person",
         "tags": [
           "AI",
           "AI - AI Studio",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
+        "title": "Can AI Defend Itself?",
+        "start_date": "2026-11-21T13:30:00Z",
+        "end_date": "2026-11-21T14:30:00Z",
+        "url": "https://gdg.community.dev/e/m4b222/",
+        "type": "Virtual",
+        "tags": [
+          "AI",
           "Tech Talk / Meetup",
           "Workshop / hands-on session"
         ]
@@ -438,7 +450,13 @@
         "end_date": "2026-12-12T11:30:00Z",
         "url": "https://gdg.community.dev/e/mvuuvm/",
         "type": "In person",
-        "tags": []
+        "tags": [
+          "AI - Gemini",
+          "DevFest",
+          "Google Cloud",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
       }
     ]
   },
@@ -489,7 +507,14 @@
         "end_date": "2026-11-22T12:30:00Z",
         "url": "https://gdg.community.dev/e/m4nnxh/",
         "type": "In person",
-        "tags": []
+        "tags": [
+          "AI - Gemini",
+          "Conference",
+          "DevFest",
+          "Google Maps Platform",
+          "Web",
+          "Workshop / hands-on session"
+        ]
       }
     ]
   },
@@ -628,7 +653,10 @@
         "end_date": "2026-12-19T12:30:00Z",
         "url": "https://gdg.community.dev/e/mcxaed/",
         "type": "In person",
-        "tags": []
+        "tags": [
+          "Conference",
+          "DevFest"
+        ]
       }
     ]
   },
@@ -737,14 +765,17 @@
     "url": "https://gdg.community.dev/gdg-bangalore/",
     "events": [
       {
-        "title": "Flutter Meetup",
-        "start_date": "2026-11-19T13:00:00Z",
-        "end_date": "2026-11-19T16:00:00Z",
-        "url": "https://gdg.community.dev/e/m5qasy/",
+        "title": "Welcome to the Gemini 4 Sprints!",
+        "start_date": "2026-11-27T03:30:00Z",
+        "end_date": "2026-11-27T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mba5v2/",
         "type": "In person",
         "tags": [
-          "Flutter",
-          "Networking"
+          "AI",
+          "AI - AI Studio",
+          "AI - Gemini",
+          "Google Cloud",
+          "Hackathon"
         ]
       },
       {

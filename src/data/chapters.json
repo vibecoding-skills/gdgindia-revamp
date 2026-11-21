@@ -18,7 +18,24 @@
     "city": "Gwalior",
     "name": "GDG Gwalior",
     "url": "https://gdg.community.dev/gdg-gwalior/",
-    "events": []
+    "events": [
+      {
+        "title": "DEVFEST GWALIOR 2026",
+        "start_date": "2026-12-26T03:30:00Z",
+        "end_date": "2026-12-26T12:00:00Z",
+        "url": "https://gdg.community.dev/e/m5c3bj/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Career Development",
+          "Community Building",
+          "Conference",
+          "DevFest",
+          "Networking",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -1013,7 +1030,20 @@
     "city": "Guwahati",
     "name": "GDG Guwahati",
     "url": "https://gdg.community.dev/gdg-guwahati/",
-    "events": []
+    "events": [
+      {
+        "title": "Google Developers Group Guwahati 2026",
+        "start_date": "2026-12-13T05:30:00Z",
+        "end_date": "2026-12-13T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mrgrc2/",
+        "type": "In person",
+        "tags": [
+          "DevFest",
+          "Hackathon",
+          "Workshop / hands-on session"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",

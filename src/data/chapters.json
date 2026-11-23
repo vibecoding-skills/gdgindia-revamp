@@ -274,7 +274,16 @@
     "city": "Bangalore",
     "name": "GDG Cloud Bengaluru",
     "url": "https://gdg.community.dev/gdg-cloud-bengaluru/",
-    "events": []
+    "events": [
+      {
+        "title": "Gemini 4 Sprints by Google DeepMind and Google Cloud",
+        "start_date": "2026-11-27T03:30:00Z",
+        "end_date": "2026-11-27T11:30:00Z",
+        "url": "https://gdg.community.dev/e/mgj4x8/",
+        "type": "Virtual",
+        "tags": []
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
@@ -328,30 +337,7 @@
     "city": "Kolkata",
     "name": "GDG Kolkata",
     "url": "https://gdg.community.dev/gdg-kolkata/",
-    "events": [
-      {
-        "title": "Devfest Kolkata 2026",
-        "start_date": "2026-11-22T02:00:00Z",
-        "end_date": "2026-11-22T12:30:00Z",
-        "url": "https://gdg.community.dev/e/mggufj/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "AI - Gemini Enterprise Agent Platform",
-          "Android",
-          "Community Building",
-          "Conference",
-          "DevFest",
-          "Firebase",
-          "Flutter",
-          "Google Cloud",
-          "Networking",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -434,23 +420,7 @@
     "city": "Rajkot",
     "name": "GDG Rajkot",
     "url": "https://gdg.community.dev/gdg-rajkot/",
-    "events": [
-      {
-        "title": "DevFest Rajkot by GDG Rajkot and GDG Cloud Rajkot",
-        "start_date": "2026-11-22T03:30:00Z",
-        "end_date": "2026-11-22T12:30:00Z",
-        "url": "https://gdg.community.dev/e/m4nnxh/",
-        "type": "In person",
-        "tags": [
-          "AI - Gemini",
-          "Conference",
-          "DevFest",
-          "Google Maps Platform",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -483,22 +453,6 @@
     "name": "GDG Pune",
     "url": "https://gdg.community.dev/gdg-pune/",
     "events": [
-      {
-        "title": "Build with AI (Gemini) - Pre DevFest Pune'26 Workshop Series 6.0 | Human Cloud",
-        "start_date": "2026-11-22T03:30:00Z",
-        "end_date": "2026-11-22T08:30:00Z",
-        "url": "https://gdg.community.dev/e/mmyabm/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "AI - Gemini Enterprise Agent Platform",
-          "AI - Gemma",
-          "Build with AI",
-          "Tech Talk / Meetup",
-          "Workshop / hands-on session"
-        ]
-      },
       {
         "title": "Build with AI (Gemini) - Pre DevFest Pune'26 Workshop Series 7.0 | Hewlett Packard Enterprise (HPE)",
         "start_date": "2026-11-28T03:30:00Z",
@@ -855,25 +809,7 @@
     "city": "Kanpur",
     "name": "GDG Kanpur",
     "url": "https://gdg.community.dev/gdg-kanpur/",
-    "events": [
-      {
-        "title": "DevFest Kanpur 2026",
-        "start_date": "2026-11-22T04:00:00Z",
-        "end_date": "2026-11-22T12:00:00Z",
-        "url": "https://gdg.community.dev/e/mykyx3/",
-        "type": "In person",
-        "tags": [
-          "AI - Gemini",
-          "AI - Gemini Enterprise Agent Platform",
-          "DevFest",
-          "Firebase",
-          "Flutter",
-          "Tech Talk / Meetup",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",
@@ -894,25 +830,7 @@
     "city": "Bhopal",
     "name": "GDG Cloud Bhopal",
     "url": "https://gdg.community.dev/gdg-cloud-bhopal/",
-    "events": [
-      {
-        "title": "Devfest Bhopal 2026",
-        "start_date": "2026-11-22T03:30:20Z",
-        "end_date": "2026-11-22T11:30:20Z",
-        "url": "https://gdg.community.dev/e/m42z93/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - Gemini",
-          "Android",
-          "Conference",
-          "DevFest",
-          "Google Cloud",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG",
@@ -1106,33 +1024,7 @@
     "city": "Rajkot",
     "name": "GDG Cloud Rajkot",
     "url": "https://gdg.community.dev/gdg-cloud-rajkot/",
-    "events": [
-      {
-        "title": "DevFest Rajkot 2026 - GDG Cloud Rajkot & GDG Rajkot",
-        "start_date": "2026-11-22T03:30:00Z",
-        "end_date": "2026-11-22T12:00:00Z",
-        "url": "https://gdg.community.dev/e/mmtnfs/",
-        "type": "In person",
-        "tags": [
-          "AI",
-          "AI - AI Studio",
-          "AI - Gemini",
-          "AI - Gemini Enterprise Agent Platform",
-          "AI - Gemma",
-          "Android",
-          "Community Building",
-          "DevFest",
-          "Firebase",
-          "Flutter",
-          "Google Cloud",
-          "Networking",
-          "Tech Talk / Meetup",
-          "UX / UI Design",
-          "Web",
-          "Workshop / hands-on session"
-        ]
-      }
-    ]
+    "events": []
   },
   {
     "type": "GDG Cloud",

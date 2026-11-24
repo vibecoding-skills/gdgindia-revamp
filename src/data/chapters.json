@@ -767,7 +767,19 @@
     "city": "Vadodara",
     "name": "GDG Baroda",
     "url": "https://gdg.community.dev/gdg-baroda/",
-    "events": []
+    "events": [
+      {
+        "title": "Agentic systems are distributed systems in disguise",
+        "start_date": "2026-11-29T04:30:00Z",
+        "end_date": "2026-11-29T07:00:00Z",
+        "url": "https://gdg.community.dev/e/m8bhgk/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Tech Talk / Meetup"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG",
@@ -859,6 +871,7 @@
         "url": "https://gdg.community.dev/e/mrgrc2/",
         "type": "In person",
         "tags": [
+          "AI - Gemini",
           "DevFest",
           "Hackathon",
           "Workshop / hands-on session"
@@ -968,7 +981,20 @@
     "city": "Aurangabad",
     "name": "GDG Aurangabad",
     "url": "https://gdg.community.dev/gdg-aurangabad/",
-    "events": []
+    "events": [
+      {
+        "title": "GDG DevFest Chh. Sambhajinagar 2026",
+        "start_date": "2026-12-26T03:30:00Z",
+        "end_date": "2026-12-26T11:30:00Z",
+        "url": "https://gdg.community.dev/e/m9ahnd/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "Conference",
+          "DevFest"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",

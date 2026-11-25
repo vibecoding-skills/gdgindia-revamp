@@ -354,6 +354,18 @@
         "tags": []
       },
       {
+        "title": "The AI Engineering Stack: Frontier Models, Remote Agents & MCP",
+        "start_date": "2026-11-28T13:30:00Z",
+        "end_date": "2026-11-28T14:30:00Z",
+        "url": "https://gdg.community.dev/e/m9p6mu/",
+        "type": "Virtual",
+        "tags": [
+          "Build with AI",
+          "Tech Talk / Meetup",
+          "Workshop / hands-on session"
+        ]
+      },
+      {
         "title": "Road to Google GDE – Your Journey Starts Here!",
         "start_date": "2026-12-05T04:30:00Z",
         "end_date": "2026-12-05T07:00:00Z",
@@ -849,7 +861,20 @@
     "city": "Gurugram",
     "name": "GDG Gurugram",
     "url": "https://gdg.community.dev/gdg-gurugram/",
-    "events": []
+    "events": [
+      {
+        "title": "Devfest Gurugram 2026",
+        "start_date": "2026-12-12T04:00:00Z",
+        "end_date": "2026-12-12T10:30:00Z",
+        "url": "https://gdg.community.dev/e/m54wph/",
+        "type": "In person",
+        "tags": [
+          "AI",
+          "AI - Gemini",
+          "DevFest"
+        ]
+      }
+    ]
   },
   {
     "type": "GDG Cloud",
